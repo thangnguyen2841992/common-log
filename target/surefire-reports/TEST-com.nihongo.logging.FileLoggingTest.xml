@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.nihongo.logging.FileLoggingTest" time="3.193" tests="6" errors="0" skipped="0" failures="0" flakes="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Admin\Desktop\microservice\common-logging\target\test-classes;C:\Users\Admin\Desktop\microservice\common-logging\target\classes;C:\Users\Admin\.m2\repository\ch\qos\logback\logback-classic\1.5.34\logback-classic-1.5.34.jar;C:\Users\Admin\.m2\repository\ch\qos\logback\logback-core\1.5.34\logback-core-1.5.34.jar;C:\Users\Admin\.m2\repository\org\slf4j\slf4j-api\2.0.18\slf4j-api-2.0.18.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.5.15\spring-boot-starter-test-3.5.15.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-starter\3.5.15\spring-boot-starter-3.5.15.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot\3.5.15\spring-boot-3.5.15.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-context\6.2.19\spring-context-6.2.19.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-aop\6.2.19\spring-aop-6.2.19.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-beans\6.2.19\spring-beans-6.2.19.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-expression\6.2.19\spring-expression-6.2.19.jar;C:\Users\Admin\.m2\repository\io\micrometer\micrometer-observation\1.15.12\micrometer-observation-1.15.12.jar;C:\Users\Admin\.m2\repository\io\micrometer\micrometer-commons\1.15.12\micrometer-commons-1.15.12.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.5.15\spring-boot-autoconfigure-3.5.15.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.5.15\spring-boot-starter-logging-3.5.15.jar;C:\Users\Admin\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.24.3\log4j-to-slf4j-2.24.3.jar;C:\Users\Admin\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\Admin\.m2\repository\org\slf4j\jul-to-slf4j\2.0.18\jul-to-slf4j-2.0.18.jar;C:\Users\Admin\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\Admin\.m2\repository\org\yaml\snakeyaml\2.4\snakeyaml-2.4.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-test\3.5.15\spring-boot-test-3.5.15.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.5.15\spring-boot-test-autoconfigure-3.5.15.jar;C:\Users\Admin\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\Admin\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.5\jakarta.xml.bind-api-4.0.5.jar;C:\Users\Admin\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.4\jakarta.activation-api-2.1.4.jar;C:\Users\Admin\.m2\repository\net\minidev\json-smart\2.5.2\json-smart-2.5.2.jar;C:\Users\Admin\.m2\repository\net\minidev\accessors-smart\2.5.2\accessors-smart-2.5.2.jar;C:\Users\Admin\.m2\repository\org\ow2\asm\asm\9.7.1\asm-9.7.1.jar;C:\Users\Admin\.m2\repository\org\assertj\assertj-core\3.27.7\assertj-core-3.27.7.jar;C:\Users\Admin\.m2\repository\net\bytebuddy\byte-buddy\1.17.8\byte-buddy-1.17.8.jar;C:\Users\Admin\.m2\repository\org\awaitility\awaitility\4.2.2\awaitility-4.2.2.jar;C:\Users\Admin\.m2\repository\org\hamcrest\hamcrest\3.0\hamcrest-3.0.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter\5.12.2\junit-jupiter-5.12.2.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.12.2\junit-jupiter-api-5.12.2.jar;C:\Users\Admin\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-commons\1.12.2\junit-platform-commons-1.12.2.jar;C:\Users\Admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.12.2\junit-jupiter-params-5.12.2.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.12.2\junit-jupiter-engine-5.12.2.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-engine\1.12.2\junit-platform-engine-1.12.2.jar;C:\Users\Admin\.m2\repository\org\mockito\mockito-core\5.17.0\mockito-core-5.17.0.jar;C:\Users\Admin\.m2\repository\net\bytebuddy\byte-buddy-agent\1.17.8\byte-buddy-agent-1.17.8.jar;C:\Users\Admin\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\Admin\.m2\repository\org\mockito\mockito-junit-jupiter\5.17.0\mockito-junit-jupiter-5.17.0.jar;C:\Users\Admin\.m2\repository\org\skyscreamer\jsonassert\1.5.3\jsonassert-1.5.3.jar;C:\Users\Admin\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-core\6.2.19\spring-core-6.2.19.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-jcl\6.2.19\spring-jcl-6.2.19.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-test\6.2.19\spring-test-6.2.19.jar;C:\Users\Admin\.m2\repository\org\xmlunit\xmlunit-core\2.10.4\xmlunit-core-2.10.4.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="GMT+07:00"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\Admin\AppData\Local\Temp\surefire5742569733607918591\surefirebooter-20261011174006977_3.jar C:\Users\Admin\AppData\Local\Temp\surefire5742569733607918591 2026-10-11T17-40-06_825-jvmRun1 surefire-20261011174006977_1tmp surefire_0-20261011174006977_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Admin\Desktop\microservice\common-logging\target\test-classes;C:\Users\Admin\Desktop\microservice\common-logging\target\classes;C:\Users\Admin\.m2\repository\ch\qos\logback\logback-classic\1.5.34\logback-classic-1.5.34.jar;C:\Users\Admin\.m2\repository\ch\qos\logback\logback-core\1.5.34\logback-core-1.5.34.jar;C:\Users\Admin\.m2\repository\org\slf4j\slf4j-api\2.0.18\slf4j-api-2.0.18.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.5.15\spring-boot-starter-test-3.5.15.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-starter\3.5.15\spring-boot-starter-3.5.15.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot\3.5.15\spring-boot-3.5.15.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-context\6.2.19\spring-context-6.2.19.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-aop\6.2.19\spring-aop-6.2.19.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-beans\6.2.19\spring-beans-6.2.19.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-expression\6.2.19\spring-expression-6.2.19.jar;C:\Users\Admin\.m2\repository\io\micrometer\micrometer-observation\1.15.12\micrometer-observation-1.15.12.jar;C:\Users\Admin\.m2\repository\io\micrometer\micrometer-commons\1.15.12\micrometer-commons-1.15.12.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.5.15\spring-boot-autoconfigure-3.5.15.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.5.15\spring-boot-starter-logging-3.5.15.jar;C:\Users\Admin\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.24.3\log4j-to-slf4j-2.24.3.jar;C:\Users\Admin\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\Admin\.m2\repository\org\slf4j\jul-to-slf4j\2.0.18\jul-to-slf4j-2.0.18.jar;C:\Users\Admin\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\Admin\.m2\repository\org\yaml\snakeyaml\2.4\snakeyaml-2.4.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-test\3.5.15\spring-boot-test-3.5.15.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.5.15\spring-boot-test-autoconfigure-3.5.15.jar;C:\Users\Admin\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\Admin\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.5\jakarta.xml.bind-api-4.0.5.jar;C:\Users\Admin\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.4\jakarta.activation-api-2.1.4.jar;C:\Users\Admin\.m2\repository\net\minidev\json-smart\2.5.2\json-smart-2.5.2.jar;C:\Users\Admin\.m2\repository\net\minidev\accessors-smart\2.5.2\accessors-smart-2.5.2.jar;C:\Users\Admin\.m2\repository\org\ow2\asm\asm\9.7.1\asm-9.7.1.jar;C:\Users\Admin\.m2\repository\org\assertj\assertj-core\3.27.7\assertj-core-3.27.7.jar;C:\Users\Admin\.m2\repository\net\bytebuddy\byte-buddy\1.17.8\byte-buddy-1.17.8.jar;C:\Users\Admin\.m2\repository\org\awaitility\awaitility\4.2.2\awaitility-4.2.2.jar;C:\Users\Admin\.m2\repository\org\hamcrest\hamcrest\3.0\hamcrest-3.0.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter\5.12.2\junit-jupiter-5.12.2.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.12.2\junit-jupiter-api-5.12.2.jar;C:\Users\Admin\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-commons\1.12.2\junit-platform-commons-1.12.2.jar;C:\Users\Admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.12.2\junit-jupiter-params-5.12.2.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.12.2\junit-jupiter-engine-5.12.2.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-engine\1.12.2\junit-platform-engine-1.12.2.jar;C:\Users\Admin\.m2\repository\org\mockito\mockito-core\5.17.0\mockito-core-5.17.0.jar;C:\Users\Admin\.m2\repository\net\bytebuddy\byte-buddy-agent\1.17.8\byte-buddy-agent-1.17.8.jar;C:\Users\Admin\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\Admin\.m2\repository\org\mockito\mockito-junit-jupiter\5.17.0\mockito-junit-jupiter-5.17.0.jar;C:\Users\Admin\.m2\repository\org\skyscreamer\jsonassert\1.5.3\jsonassert-1.5.3.jar;C:\Users\Admin\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-core\6.2.19\spring-core-6.2.19.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-jcl\6.2.19\spring-jcl-6.2.19.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-test\6.2.19\spring-test-6.2.19.jar;C:\Users\Admin\.m2\repository\org\xmlunit\xmlunit-core\2.10.4\xmlunit-core-2.10.4.jar;"/>
+    <property name="test" value="FileLoggingTest,SecurityHardeningTest,SafeCsvTest,TotpCodesTest,AccountFeaturesIntegrationTest,AdditionalLearningPersistenceTest,SharedSecurityIntegrationTest,ActivationOutboxIntegrationTest,GatewayHardeningTest,PublicCoursesSecurityTest,GatewayStartupTest,com.thang.nihongo.notification_service.OperationsAuthorizationTest,ActivationMailTest,WalletNotificationTest,WalletMailDeliveryPersistenceTest"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Admin"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Admin\Desktop\microservice\common-logging"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Admin\AppData\Local\Temp\surefire5742569733607918591\surefirebooter-20261011174006977_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
+    <property name="user.name" value="Admin"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="surefire.failIfNoSpecifiedTests" value="false"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Admin\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Admin\AppData\Local\Temp\"/>
+    <property name="spring.config.import" value=""/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="C:\Users\Admin\Desktop\microservice\common-logging"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Admin\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\powershell;C:\Users\Admin\.codex\tmp\arg0\codex-arg0QGeGeP;C:\Users\Admin\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\libheif\libheif\bin;C:\Users\Admin\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\jxrlib\jxrlib\bin;C:\Users\Admin\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\poppler\Library\bin;C:\Users\Admin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Windows\System32\wbem;C:\Program Files\dotnet\;C:\Users\Admin\Desktop\apache-maven-3.9.14\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Admin\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\powershell;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Roaming\npm;C:\Kafka\bin\windows;C:\Users\Admin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\fallback;C:\Users\Admin\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin;C:\Users\Admin\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\git\cmd;C:\Users\Admin\AppData\Local\OpenAI\Codex\bin\9a7ba4b9ea0c44a3;C:\Users\Admin\AppData\Local\OpenAI\Codex\bin\2e5e00daee91c61d;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
+    <property name="spring.kafka.admin.auto-create" value="false"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="deletesExpiredArchivesAtStartupAndPreservesUnrelatedFiles" classname="com.nihongo.logging.FileLoggingTest" time="0.291"/>
+  <testcase name="rollsAndCompressesFilesAndCapsArchiveSize" classname="com.nihongo.logging.FileLoggingTest" time="1.785">
+    <system-out><![CDATA[2026-10-11T10:40:07.875Z INFO  [main] nihongo.kafka - event=test eventId=18ad2783-c562-4e03-8c6d-990fc305cc45 data=ff6c7825-fd9e-44f7-a64a-293d8c442566
+2026-10-11T10:40:07.880Z INFO  [main] nihongo.kafka - event=test eventId=64112d92-979e-4004-bc89-a870bff0d89e data=bf28c676-6cdb-40f2-9a5d-d544d72c0128
+2026-10-11T10:40:07.882Z INFO  [main] nihongo.kafka - event=test eventId=3e967713-8607-4ed0-872d-ac6c6a922826 data=2a9b45bd-28a8-419d-bea6-826cfb185cb8
+2026-10-11T10:40:07.883Z INFO  [main] nihongo.kafka - event=test eventId=9df94764-e5c7-41bd-a763-d5c4392dd3ff data=f6159ed1-66be-4616-803e-e25a21603886
+2026-10-11T10:40:07.883Z INFO  [main] nihongo.kafka - event=test eventId=4a23892d-2da3-41ef-ad2d-1f79b880c94b data=d195e855-0e61-4e59-b6ee-ff7adc606511
+2026-10-11T10:40:07.884Z INFO  [main] nihongo.kafka - event=test eventId=33a4071b-0364-4907-b88b-64365b196556 data=30feacef-d719-45bc-ab98-4942a46fe40a
+2026-10-11T10:40:07.884Z INFO  [main] nihongo.kafka - event=test eventId=d4fa99d3-3a45-48d5-8ffc-d590e1a3f18b data=52192ea9-6964-4a20-892e-c85e9fbc12ba
+2026-10-11T10:40:07.885Z INFO  [main] nihongo.kafka - event=test eventId=4efbfa89-87da-4c58-b5a6-2d1cf7280350 data=c288981f-b5fa-4080-b9db-76f41b2a3ee4
+2026-10-11T10:40:07.885Z INFO  [main] nihongo.kafka - event=test eventId=1dfdfcb9-92a2-4b48-9320-3096bbe09503 data=0725e11c-1b74-4c13-bbf7-046e80e8a2fd
+2026-10-11T10:40:07.885Z INFO  [main] nihongo.kafka - event=test eventId=cb456ecf-3d42-48bc-9b2a-940d04e61854 data=137b2639-ca52-4480-bc15-1895c5987d6f
+2026-10-11T10:40:07.886Z INFO  [main] nihongo.kafka - event=test eventId=aac4c12b-35cb-4a90-9219-7e849ca92818 data=a183e723-8ae9-4cd9-9fe4-896cf98cd777
+2026-10-11T10:40:07.886Z INFO  [main] nihongo.kafka - event=test eventId=c528a1d3-8803-4e77-9dce-1f5fbdc6c72d data=9140af3b-d2e6-46b3-924c-292d1642775c
+2026-10-11T10:40:08.031Z INFO  [main] nihongo.kafka - event=test eventId=b410ea06-5c5d-43b0-9f0b-425d4a394aa8 data=40863afc-ca54-4f39-be19-67acb1753032
+2026-10-11T10:40:08.032Z INFO  [main] nihongo.kafka - event=test eventId=394ac90e-35b7-4b61-83e5-f60adfa6eb2c data=2be814d8-054f-485b-be4b-3a6e08ed01f3
+2026-10-11T10:40:08.032Z INFO  [main] nihongo.kafka - event=test eventId=fe1f1968-0d7e-4003-9c68-4ab52c9938a3 data=e7162fdd-422b-4dfe-a147-901ffb51a4c5
+2026-10-11T10:40:08.032Z INFO  [main] nihongo.kafka - event=test eventId=00ced546-aecf-4445-969a-38c670b3dc1b data=5660bbd7-cdaa-4498-8d2d-b190cafdca08
+2026-10-11T10:40:08.032Z INFO  [main] nihongo.kafka - event=test eventId=b5362500-86eb-4443-be81-b3f5effb43ab data=b65c5350-0fc4-4484-91b1-829d16d7bf8c
+2026-10-11T10:40:08.033Z INFO  [main] nihongo.kafka - event=test eventId=2e5bde98-2038-4953-b939-beed1aac45d5 data=2f8c78bb-1ca7-4a18-8569-0d483c4fa88f
+2026-10-11T10:40:08.033Z INFO  [main] nihongo.kafka - event=test eventId=d3105a70-a9b3-4678-a2c6-c98d9be99b3e data=420cb3ac-087c-4f0c-ae8c-f0850449eaee
+2026-10-11T10:40:08.033Z INFO  [main] nihongo.kafka - event=test eventId=4e1cb96a-ab86-40d1-9641-693884d09d73 data=375a4d94-3f3c-422d-b46f-691c257fa5af
+2026-10-11T10:40:08.033Z INFO  [main] nihongo.kafka - event=test eventId=989468c9-692a-49fb-915a-097bbd7174cc data=1e8cc1c8-acae-47f2-90a8-a1ea2ac3e403
+2026-10-11T10:40:08.033Z INFO  [main] nihongo.kafka - event=test eventId=1035d911-d4d4-4850-b240-4c481621044f data=1bbe0bb9-ad4f-4a13-a7d8-e90e02bba74f
+2026-10-11T10:40:08.033Z INFO  [main] nihongo.kafka - event=test eventId=6f51dd86-c7a3-4efe-987c-658c99aefff8 data=c1270beb-c1ca-4153-9b4d-de29d43f5577
+2026-10-11T10:40:08.035Z INFO  [main] nihongo.kafka - event=test eventId=14a72e25-db43-48d3-838a-38671ffc7609 data=912db8f1-a276-4d62-a9d8-f4494ee1996c
+2026-10-11T10:40:08.172Z INFO  [main] nihongo.kafka - event=test eventId=f0436f42-2c52-402e-8b38-6710d6d477eb data=686db8b0-ca27-4f0a-bae2-e56c939017ff
+2026-10-11T10:40:08.172Z INFO  [main] nihongo.kafka - event=test eventId=42256ea7-a12e-4a5e-8ba2-effb70ff09f1 data=db28f419-30ff-4e1b-b9cf-fa5387b1ad4c
+2026-10-11T10:40:08.173Z INFO  [main] nihongo.kafka - event=test eventId=4f520363-b7f2-4715-99fe-52d096f48af5 data=0f0ec8a1-64d0-4753-bf0b-4d54731dc403
+2026-10-11T10:40:08.174Z INFO  [main] nihongo.kafka - event=test eventId=645c0771-31b5-4b08-9d36-c649ea47c9e7 data=24704338-8b38-43fe-8613-b3c94b1638fb
+2026-10-11T10:40:08.174Z INFO  [main] nihongo.kafka - event=test eventId=d491c1c9-18b7-4fda-b7ee-e05857a17886 data=598bbf5d-0141-43bd-ab7e-17b6ff1835e0
+2026-10-11T10:40:08.175Z INFO  [main] nihongo.kafka - event=test eventId=db973a9b-249a-4d16-8b1e-89ed6c665857 data=4c4359e8-053f-47fe-aaf8-ffbecb702789
+2026-10-11T10:40:08.175Z INFO  [main] nihongo.kafka - event=test eventId=939940d5-f244-4bd9-9291-a213dd00cf70 data=e88d6917-b350-4260-8bad-f3e7294f406e
+2026-10-11T10:40:08.175Z INFO  [main] nihongo.kafka - event=test eventId=e398619e-e01d-47ae-96b5-7f301521abd0 data=f9c799e9-7fe2-4dce-afe0-4c5395d3dac8
+2026-10-11T10:40:08.176Z INFO  [main] nihongo.kafka - event=test eventId=b07ca457-1863-4388-adec-543ce307d5ab data=cd95a84c-3b62-40a0-afdb-44a2e28b3a32
+2026-10-11T10:40:08.177Z INFO  [main] nihongo.kafka - event=test eventId=af295479-4163-49ea-814b-e502c0663734 data=781524c5-bbef-496c-b98c-ba4f5c838db2
+2026-10-11T10:40:08.177Z INFO  [main] nihongo.kafka - event=test eventId=fff5c5f9-3dd4-438f-b08d-0ebf45992235 data=0370dd92-bf01-413e-8c51-645e0935e961
+2026-10-11T10:40:08.177Z INFO  [main] nihongo.kafka - event=test eventId=413d1f02-5606-496f-bf22-8c5ebf0123ee data=69a96783-53c0-4f1c-b657-85c7ef55cd1a
+2026-10-11T10:40:08.310Z INFO  [main] nihongo.kafka - event=test eventId=695c407b-f19f-4d5b-92d2-ee41d89fd98e data=e8494646-b7ac-4367-a95a-ee0c3d58bdd7
+2026-10-11T10:40:08.310Z INFO  [main] nihongo.kafka - event=test eventId=34bfa136-6e17-48c6-9493-11ac4c0b95ab data=8d93c330-dae5-4058-b95f-32aa5e2304a4
+2026-10-11T10:40:08.310Z INFO  [main] nihongo.kafka - event=test eventId=d720249a-0d32-4de8-91d6-4df92170f81b data=7f7f973f-6e5c-4437-a1d9-e280e64f1ad7
+2026-10-11T10:40:08.310Z INFO  [main] nihongo.kafka - event=test eventId=93bd788d-09c0-4b44-9f3d-79b2bc736bb8 data=69bbd640-ec4e-4bb2-80b0-65f4c1c3a687
+2026-10-11T10:40:08.310Z INFO  [main] nihongo.kafka - event=test eventId=3b72e1fa-5635-4e26-a6c4-5775058709b9 data=a09856f0-0456-408d-9d57-17c33e4f9521
+2026-10-11T10:40:08.310Z INFO  [main] nihongo.kafka - event=test eventId=389aae1a-3f27-405a-9713-e1fc2b4c6f57 data=24777067-1f75-49fb-b30c-65f170001973
+2026-10-11T10:40:08.312Z INFO  [main] nihongo.kafka - event=test eventId=11d0d052-8109-4522-9b3f-69000323d814 data=77511dad-e75f-4e3f-9df5-28a7c081d7df
+2026-10-11T10:40:08.312Z INFO  [main] nihongo.kafka - event=test eventId=c1e8aa1b-b370-4385-a3be-893a0638eaa3 data=bdc26bc5-e14d-446f-ae90-d31508a190a4
+2026-10-11T10:40:08.312Z INFO  [main] nihongo.kafka - event=test eventId=7dc6e685-6ec5-442a-8a22-2ce000a27d76 data=dad99d46-5f2b-4052-9aff-993073fb1b19
+2026-10-11T10:40:08.312Z INFO  [main] nihongo.kafka - event=test eventId=335486aa-8c21-4fa2-84c9-dde35c821b49 data=ffa882a6-2d5c-45a3-ac94-4a6d20a6a663
+2026-10-11T10:40:08.312Z INFO  [main] nihongo.kafka - event=test eventId=c1114dfd-f31f-4793-a52c-cb6211a7e69c data=6b4189cd-25cf-4fd3-a015-c109d5a95494
+2026-10-11T10:40:08.312Z INFO  [main] nihongo.kafka - event=test eventId=76f883d5-4ef0-4dbd-b87a-cd082c44b34c data=240f4e9e-f2f1-4526-a9a2-064777bf85bd
+2026-10-11T10:40:08.451Z INFO  [main] nihongo.kafka - event=test eventId=ece378f7-cf21-4252-8f0c-9951703fbe5a data=5eec8e23-bef0-4250-b8e5-bdaec2d5d6a0
+2026-10-11T10:40:08.451Z INFO  [main] nihongo.kafka - event=test eventId=29f7aa9a-3271-423c-aed4-14c8f50c4430 data=5b034d90-d33a-4165-ac62-bd3413037ce8
+2026-10-11T10:40:08.452Z INFO  [main] nihongo.kafka - event=test eventId=14f5604c-4003-43a3-a11d-654302ceb81c data=283ec66a-db13-45a4-a503-54d256467404
+2026-10-11T10:40:08.452Z INFO  [main] nihongo.kafka - event=test eventId=c007465c-d466-40e4-bb79-6df0c3ba91dd data=2c37dc5d-b5e4-4886-bd9f-adef235e6ae2
+2026-10-11T10:40:08.452Z INFO  [main] nihongo.kafka - event=test eventId=39ec89f4-34c5-411a-93ec-bcfbbc097663 data=f8082d7d-30a5-4383-94cb-80ca721a8482
+2026-10-11T10:40:08.452Z INFO  [main] nihongo.kafka - event=test eventId=27f494ac-e5cf-4265-a07a-70b56385ccf3 data=f80adb08-609b-4243-aa97-ebe5f44ad19f
+2026-10-11T10:40:08.452Z INFO  [main] nihongo.kafka - event=test eventId=279ae971-32e5-47aa-bda0-e5125db26465 data=48e9507b-2bc1-419e-9d59-88ca6ae2875f
+2026-10-11T10:40:08.452Z INFO  [main] nihongo.kafka - event=test eventId=283bea03-7fe0-4e2d-8ea2-01e8b1e8a3fd data=e2a7591f-1e28-4325-b57b-d69b6a359afe
+2026-10-11T10:40:08.453Z INFO  [main] nihongo.kafka - event=test eventId=46c849f4-dba0-466f-9b6d-9f5f902e9cc1 data=1c0719c7-4ec9-42c4-8fed-ec3ac8475f08
+2026-10-11T10:40:08.453Z INFO  [main] nihongo.kafka - event=test eventId=f799086b-cb79-42df-a2d1-e4c6d0d4b7ee data=d93511be-5f4f-447a-9339-1e53623c16fe
+2026-10-11T10:40:08.453Z INFO  [main] nihongo.kafka - event=test eventId=42ebcd0d-25d1-4972-ba7b-11de542c94b3 data=478066d5-c05d-4f10-83dd-45b29eeaeb0f
+2026-10-11T10:40:08.454Z INFO  [main] nihongo.kafka - event=test eventId=591bec94-cce4-4cdc-af38-89297cbb891d data=41095c87-1bed-44d0-b14a-5bb24db5a5ab
+2026-10-11T10:40:08.596Z INFO  [main] nihongo.kafka - event=test eventId=7a42921d-807a-411d-9aa0-1180f70359e6 data=253aa0b9-cac2-4f30-9673-bcbd31a1d5f5
+2026-10-11T10:40:08.596Z INFO  [main] nihongo.kafka - event=test eventId=2c5607fa-524e-4032-b248-50bd550e274f data=ef9cf027-e105-4b69-89f4-01b325bb9f90
+2026-10-11T10:40:08.596Z INFO  [main] nihongo.kafka - event=test eventId=248b58a6-423f-43a8-99ca-2982d92fdcc4 data=5617d480-406b-4331-950b-a91033cd1830
+2026-10-11T10:40:08.596Z INFO  [main] nihongo.kafka - event=test eventId=f39c6ac9-fef0-4e8b-bb8f-382560a07ad4 data=415e93bc-79bd-438f-b54e-ba1e399deade
+2026-10-11T10:40:08.597Z INFO  [main] nihongo.kafka - event=test eventId=84118e32-857c-445b-99ec-8167951cbc7c data=bc6b6f0f-8f33-4db4-b848-326a36cde5c4
+2026-10-11T10:40:08.597Z INFO  [main] nihongo.kafka - event=test eventId=d3874893-ea3f-40f8-b397-de9c48314e1b data=5bb68186-e2d9-4fa2-af81-f52f62514412
+2026-10-11T10:40:08.597Z INFO  [main] nihongo.kafka - event=test eventId=dd98a5cb-9d6d-494f-b937-b66f4234e447 data=da9a6141-2a8d-48cb-8867-109e0488d0bb
+2026-10-11T10:40:08.598Z INFO  [main] nihongo.kafka - event=test eventId=91d84127-a288-4c07-b6d3-e538052b1ef1 data=50afaac7-45ee-4b7a-b8e5-d912fca1dc50
+2026-10-11T10:40:08.598Z INFO  [main] nihongo.kafka - event=test eventId=070538d4-c22e-401a-8ba7-8e2ecea5f2c3 data=15b68ddd-d867-4ef3-865b-f880f1ee373b
+2026-10-11T10:40:08.598Z INFO  [main] nihongo.kafka - event=test eventId=abda8687-32c9-46e3-858f-3484a0540f05 data=a6965a0b-ab3f-4b5a-825d-a3be0299512e
+2026-10-11T10:40:08.598Z INFO  [main] nihongo.kafka - event=test eventId=c68fce45-d1ba-41cc-bd25-6c6487e4aadb data=b8429bfe-abb6-47af-93cf-6115472f7e90
+2026-10-11T10:40:08.598Z INFO  [main] nihongo.kafka - event=test eventId=d364a071-4a6b-4d27-a36e-63cd96d29ceb data=7ffd7ea4-8dfe-4981-885c-14ca8f4e440e
+2026-10-11T10:40:08.737Z INFO  [main] nihongo.kafka - event=test eventId=ef32abed-599e-4064-8ce3-1cd92c298771 data=8b9efaf6-8d96-4ccd-8031-918792adfbde
+2026-10-11T10:40:08.737Z INFO  [main] nihongo.kafka - event=test eventId=8ebbd4ac-99f1-4e48-b7e3-ad4ba1b94f9d data=bef2ee67-546b-4c1e-8073-945bf12cd4e4
+2026-10-11T10:40:08.737Z INFO  [main] nihongo.kafka - event=test eventId=86bd365e-1b7f-479c-b933-53e002c21e9c data=97acd992-79d5-4d6c-8b78-ccdeafe84800
+2026-10-11T10:40:08.737Z INFO  [main] nihongo.kafka - event=test eventId=5d00da0a-3a63-4daf-aa32-e450344a5516 data=94f30094-14cc-44db-9bbb-a052ebe8039a
+2026-10-11T10:40:08.737Z INFO  [main] nihongo.kafka - event=test eventId=a7e09b7b-d92d-4d2c-a38e-bd8de9a5e7c7 data=f6a1e740-78c1-4221-ac57-154c43b22af6
+2026-10-11T10:40:08.738Z INFO  [main] nihongo.kafka - event=test eventId=68358cec-0403-4812-bd2c-182238efa2c9 data=4364252a-e1b2-4938-8193-167f1767bf12
+2026-10-11T10:40:08.738Z INFO  [main] nihongo.kafka - event=test eventId=5520f6cb-9361-454c-9b68-b00eb799542b data=1957f016-6a7a-4f4e-9c02-dec6e7bfd64e
+2026-10-11T10:40:08.738Z INFO  [main] nihongo.kafka - event=test eventId=01d0d812-b235-41e2-bab6-0f839f578a02 data=e1b0b0e0-3b6e-437a-8318-ed4def597da7
+2026-10-11T10:40:08.738Z INFO  [main] nihongo.kafka - event=test eventId=a36fe48b-b88f-4146-8267-51581ddf2855 data=3344332e-e409-40ff-b6a9-0d38ff1f46aa
+2026-10-11T10:40:08.739Z INFO  [main] nihongo.kafka - event=test eventId=564a9bfb-6a72-41ea-a577-c77a3f3193c0 data=96af15aa-d95a-4565-b347-d3aba38399fa
+2026-10-11T10:40:08.739Z INFO  [main] nihongo.kafka - event=test eventId=8e57b09d-f1f9-4d3f-90c8-1b3ef0b715fa data=2fc688de-f1d0-497a-a0c6-dbb3e8d43664
+2026-10-11T10:40:08.740Z INFO  [main] nihongo.kafka - event=test eventId=e33b20c5-d9e5-4b08-81bd-fff30cd6e76e data=7f9650f7-b57c-40d3-97e9-326448b4fe28
+2026-10-11T10:40:08.878Z INFO  [main] nihongo.kafka - event=test eventId=3f76c942-7fab-4721-823c-7e6898d260fa data=ae36ae74-e793-4e82-b24b-4a854233a998
+2026-10-11T10:40:08.879Z INFO  [main] nihongo.kafka - event=test eventId=3d463bd5-5314-4992-a300-1f25a23ffd4f data=fc13cf90-d89f-44ef-9f61-059202ae97d8
+2026-10-11T10:40:08.879Z INFO  [main] nihongo.kafka - event=test eventId=2fc5fa91-d6f8-4ed2-b160-ad2c080f8cdb data=a341c36f-7c64-4353-b9e1-b13cada0db91
+2026-10-11T10:40:08.879Z INFO  [main] nihongo.kafka - event=test eventId=36b077e2-f8dd-4db3-a5a0-b3da485d6106 data=4f642f0e-f5a9-4581-8830-df6a43786059
+2026-10-11T10:40:08.880Z INFO  [main] nihongo.kafka - event=test eventId=92734780-acf9-4e4e-94ec-b7e029020ca0 data=6e080090-cddb-4139-a3c4-0c8f2a97d389
+2026-10-11T10:40:08.880Z INFO  [main] nihongo.kafka - event=test eventId=d09f16ed-db32-4eb1-9b82-fe8b3e778227 data=74f09cee-9e52-4b2a-a78d-18deb78ef87b
+2026-10-11T10:40:08.880Z INFO  [main] nihongo.kafka - event=test eventId=1b585543-7f83-43d2-ad69-ecc25c921764 data=3a0ca036-a37d-4327-a6b4-e8b635f5818a
+2026-10-11T10:40:08.880Z INFO  [main] nihongo.kafka - event=test eventId=c65fe339-f3d7-4308-b9e6-cb902f3cfefc data=e5f31151-6209-4dfe-9191-eb17253cf865
+2026-10-11T10:40:08.880Z INFO  [main] nihongo.kafka - event=test eventId=d8310a75-b2ea-4cbe-b277-8adbdffd610e data=7f5f9c9f-b5d5-4ddf-9306-db7981e91fbd
+2026-10-11T10:40:08.881Z INFO  [main] nihongo.kafka - event=test eventId=c3345cfd-c454-4095-bd44-3118c7252978 data=c29ff25b-954f-43ea-96f1-8f38704d4b06
+2026-10-11T10:40:08.881Z INFO  [main] nihongo.kafka - event=test eventId=520a4dd1-58e1-47cc-b97e-ffc19a86492d data=ed9a75f9-04b3-4062-9f93-41104583e550
+2026-10-11T10:40:08.881Z INFO  [main] nihongo.kafka - event=test eventId=00d78f4c-d782-4c18-9ab8-044a16200050 data=1989ba2b-4fae-4115-97c5-fb999c90e94b
+2026-10-11T10:40:09.019Z INFO  [main] nihongo.kafka - event=test eventId=5f315ff2-8850-4e3f-bd83-46fe06e567cc data=3bbbcfe4-550c-42e9-9102-46bce60a44bd
+2026-10-11T10:40:09.019Z INFO  [main] nihongo.kafka - event=test eventId=7c763c19-74ad-413c-a914-eee72d249ebb data=8c4342f2-6492-4a93-95de-789ac61468ba
+2026-10-11T10:40:09.019Z INFO  [main] nihongo.kafka - event=test eventId=2b2daa37-9e1e-4a04-b3f6-c7e19fb0bb89 data=24a6cb14-42b4-43f2-b827-c99f30b669ca
+2026-10-11T10:40:09.019Z INFO  [main] nihongo.kafka - event=test eventId=fcca8547-fe04-4183-b493-f94265aee28d data=566f94c0-29e4-4635-98ae-1a3e50fd9a07
+2026-10-11T10:40:09.020Z INFO  [main] nihongo.kafka - event=test eventId=6343d3cd-d6b9-4d2b-9acb-68d339b36f5d data=273550c5-9658-4b66-bbbc-af9c05546fc9
+2026-10-11T10:40:09.020Z INFO  [main] nihongo.kafka - event=test eventId=f098756c-7b52-4d4d-b734-15e30b5b890a data=b7f4d903-558f-493f-a5f5-5b4b2e276f74
+2026-10-11T10:40:09.020Z INFO  [main] nihongo.kafka - event=test eventId=a43075fb-2631-4e04-aedb-179bc5911722 data=8e6b93cd-7cfa-4f71-ba43-6712b9ad4ac0
+2026-10-11T10:40:09.020Z INFO  [main] nihongo.kafka - event=test eventId=7ff38fdd-8e2a-4fc7-913e-245963e6d9e2 data=5caa2286-6ec8-4006-a701-998d25d9efde
+2026-10-11T10:40:09.020Z INFO  [main] nihongo.kafka - event=test eventId=a245b48b-f2fc-41b9-9131-c3b8c86b1ff4 data=d7d2b15e-96c9-4cf9-841b-87716cfbdea3
+2026-10-11T10:40:09.020Z INFO  [main] nihongo.kafka - event=test eventId=58374c85-9630-45dd-a2f8-524f63879889 data=22114960-f059-42f8-98dc-6af8bb3193a5
+2026-10-11T10:40:09.020Z INFO  [main] nihongo.kafka - event=test eventId=9ae70782-f81d-4cf0-9414-5582883b5e1d data=23d8c4a5-d351-4b0a-802d-4a5458326b12
+2026-10-11T10:40:09.020Z INFO  [main] nihongo.kafka - event=test eventId=f0d194da-694b-4224-bad3-e6deb55a2cf7 data=5da8fd07-6810-439e-a28c-663341593bfb
+2026-10-11T10:40:09.159Z INFO  [main] nihongo.kafka - event=test eventId=6d13749c-d9d6-40aa-a18f-61896747fa95 data=18a8a727-2704-4459-85ec-6815b078b84c
+2026-10-11T10:40:09.159Z INFO  [main] nihongo.kafka - event=test eventId=60860af0-b4f3-4802-bd44-79ad8b616ea8 data=5096322f-6fcd-4d39-8307-129524e87ce9
+2026-10-11T10:40:09.159Z INFO  [main] nihongo.kafka - event=test eventId=20e0695c-fefc-41fa-bc5f-1a9e8cc396cc data=8e3adadf-0dfc-47bb-903d-16cce0ed213e
+2026-10-11T10:40:09.159Z INFO  [main] nihongo.kafka - event=test eventId=c3b5ca39-2510-492b-861f-18f56255b1fc data=e97f9cee-09c3-4cf9-8918-9a3d489e027c
+2026-10-11T10:40:09.159Z INFO  [main] nihongo.kafka - event=test eventId=04317fa8-fc5e-4960-84ad-e5f31fb67908 data=dcd823b9-999d-4c9a-b3a0-2ddc71f5e303
+2026-10-11T10:40:09.159Z INFO  [main] nihongo.kafka - event=test eventId=e6d56b0c-5ef8-4753-99ad-ca7f62c86f7d data=5e867400-5d46-4c79-b00d-5d2e9b785334
+2026-10-11T10:40:09.159Z INFO  [main] nihongo.kafka - event=test eventId=068b8d2c-9a2e-44f3-b1ca-ec65e3d9e56c data=66e3daab-2a62-4bd1-82f3-a279454f5f5b
+2026-10-11T10:40:09.160Z INFO  [main] nihongo.kafka - event=test eventId=a5c8fe04-fe93-426d-a392-0b810f9f10bd data=bf1d3621-223d-4e81-ac33-56a6f6739fa3
+2026-10-11T10:40:09.160Z INFO  [main] nihongo.kafka - event=test eventId=85a0cece-388d-4094-9dff-c54b95a3a357 data=30a4571b-9b23-4066-a7f8-67ab3d21cf22
+2026-10-11T10:40:09.160Z INFO  [main] nihongo.kafka - event=test eventId=644cf266-dfbe-4219-9c1d-d53df044e4aa data=64300adf-073c-49d0-bb04-32c000169e73
+2026-10-11T10:40:09.160Z INFO  [main] nihongo.kafka - event=test eventId=44d58f2d-b48b-48aa-b38b-a4ab62096eb2 data=672aa134-84dc-485f-ac98-e0503e30bd80
+2026-10-11T10:40:09.160Z INFO  [main] nihongo.kafka - event=test eventId=4d09461c-93cc-44ff-938d-31e8fb36d462 data=bfbdd740-458c-414a-a258-acd66275bfaa
+2026-10-11T10:40:09.299Z INFO  [main] nihongo.kafka - event=test eventId=5c371418-916e-428f-9ef6-828f1503fdde data=9e0a936d-bc52-4556-a6de-7deff813dd7f
+2026-10-11T10:40:09.299Z INFO  [main] nihongo.kafka - event=test eventId=c8f1de24-5594-463e-878b-a33acb36bb5a data=005aea09-6ba9-4583-983b-abe1aca6e181
+2026-10-11T10:40:09.299Z INFO  [main] nihongo.kafka - event=test eventId=03cf57f0-cd67-4ec8-919b-d3dd1d3210d5 data=b9a40312-53c2-40cd-a51c-40a8ebf8a1db
+2026-10-11T10:40:09.299Z INFO  [main] nihongo.kafka - event=test eventId=45d10048-ab6d-4410-8c5c-9c3102bfcc85 data=1e559a7e-4e7e-4b85-ac98-22573754a6ce
+2026-10-11T10:40:09.300Z INFO  [main] nihongo.kafka - event=test eventId=db28d148-83ff-4bef-91c8-46ff3b34d54c data=7cc2ebe8-b7b3-4760-9348-9042a9b83d9a
+2026-10-11T10:40:09.300Z INFO  [main] nihongo.kafka - event=test eventId=b3742283-744a-40a7-a4c8-6ed57c84eb17 data=de9f8ddd-1f96-46d9-bdae-9c417f8a8be3
+2026-10-11T10:40:09.300Z INFO  [main] nihongo.kafka - event=test eventId=ec21f982-6e1f-46da-9cf0-fdfecf7b64fe data=96db734c-b12c-4f94-9ae7-c46a93f0fd32
+2026-10-11T10:40:09.300Z INFO  [main] nihongo.kafka - event=test eventId=184237e6-f063-4604-a8ff-0f5571f5f05d data=5eb6cbd3-65b9-44bc-8425-adbc2f669327
+2026-10-11T10:40:09.300Z INFO  [main] nihongo.kafka - event=test eventId=d0752f7d-358f-4f9a-b8c2-8be82030167c data=743cbcf1-e711-4a4c-aa1d-e53c03fbee0c
+2026-10-11T10:40:09.300Z INFO  [main] nihongo.kafka - event=test eventId=b14ff486-33aa-46d4-b877-e02b137ca0c0 data=cb94dd64-615d-4ec5-9474-aef6d34a8f24
+2026-10-11T10:40:09.300Z INFO  [main] nihongo.kafka - event=test eventId=77d639d8-4d41-427a-8ee3-11c262f0b2f1 data=83eaa234-9800-42d8-867f-661bc0b8222e
+2026-10-11T10:40:09.300Z INFO  [main] nihongo.kafka - event=test eventId=2069a4c3-2c52-44bd-a257-717f3e3c554c data=3f0cef9c-6474-4cbd-b92c-26b0d554d6a9
+2026-10-11T10:40:09.439Z INFO  [main] nihongo.kafka - event=test eventId=defd8888-a1e6-40b5-9dc3-211da835cf86 data=d3644331-dc37-45b1-9427-69d275ad461b
+2026-10-11T10:40:09.439Z INFO  [main] nihongo.kafka - event=test eventId=ae3e46bd-8ec5-41fc-bdda-22b980f5a63d data=f7aeadb7-25bd-42bf-8c85-79a012a15360
+2026-10-11T10:40:09.439Z INFO  [main] nihongo.kafka - event=test eventId=8084ca6f-d73b-427d-bfa5-51e1b685424d data=619c5765-2978-4a46-b101-73962abd86ee
+2026-10-11T10:40:09.439Z INFO  [main] nihongo.kafka - event=test eventId=d36b38bc-ddd2-4aa1-88f8-48f285ed4668 data=52e19739-7157-4e2f-ba67-f667c63596e8
+2026-10-11T10:40:09.439Z INFO  [main] nihongo.kafka - event=test eventId=2f4b0ee6-f637-4c8c-b21c-d1033ecd4dc4 data=087eba70-2aa2-4a9a-9a6f-ae698b13635d
+2026-10-11T10:40:09.440Z INFO  [main] nihongo.kafka - event=test eventId=9ae24fe2-81b9-4d8e-ad00-f65c34a705cf data=5a47a359-0405-4de5-909b-0300bac09db7
+2026-10-11T10:40:09.440Z INFO  [main] nihongo.kafka - event=test eventId=2c4b6ff8-5113-46ee-b561-b7f4fc7b56c8 data=3c2b557d-2928-4d86-80fe-3095e1cd74fd
+2026-10-11T10:40:09.440Z INFO  [main] nihongo.kafka - event=test eventId=96ab8dd7-7885-4a89-9965-c4348a6057ab data=292bc0a4-e0e4-4475-b1b0-2e293c4ffd93
+2026-10-11T10:40:09.440Z INFO  [main] nihongo.kafka - event=test eventId=b1cc66af-ebad-4b60-9e4c-fa895dc7085c data=941eba27-40f7-432a-8a50-41c48fadaa6d
+2026-10-11T10:40:09.441Z INFO  [main] nihongo.kafka - event=test eventId=13a87ce9-39c7-4b50-845e-5dbc20bfa6d3 data=0e349017-4eff-4b94-9e7e-d1646c4e5cd7
+2026-10-11T10:40:09.441Z INFO  [main] nihongo.kafka - event=test eventId=def4a6b0-c0ec-412a-82dc-39b538d976f6 data=ab70ae3d-73b1-40dd-9c56-ff8fd395c316
+2026-10-11T10:40:09.441Z INFO  [main] nihongo.kafka - event=test eventId=c0d0cdfd-dc05-4869-a4b6-68d3d2e17aaf data=20ec6043-992a-47a7-9938-8f1f7152d978
+]]></system-out>
+  </testcase>
+  <testcase name="sqlTraceRecordsQueriesWithPlaceholdersWithoutBindValues" classname="com.nihongo.logging.FileLoggingTest" time="0.027"/>
+  <testcase name="redactsTokensCookiesSecretsAndPreventsForgedLogLines" classname="com.nihongo.logging.FileLoggingTest" time="0.005"/>
+  <testcase name="routesFilesAndDisablesSqlAndParameterLoggingByDefault" classname="com.nihongo.logging.FileLoggingTest" time="0.041">
+    <system-out><![CDATA[2026-10-11T10:40:09.686Z INFO  [main] nihongo.kafka - event=published eventId=event-1 password=[REDACTED] [REDACTED_EMAIL]
+2026-10-11T10:40:09.686Z INFO  [main] nihongo.socket - event=connected socketId=connection-1
+2026-10-11T10:40:09.687Z ERROR [main] app - failure
+java.lang.IllegalStateException: refreshToken=[REDACTED]
+	at com.nihongo.logging.FileLoggingTest.routesFilesAndDisablesSqlAndParameterLoggingByDefault(FileLoggingTest.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:775)
+	at org.junit.platform.commons.support.ReflectionSupport.invokeMethod(ReflectionSupport.java:479)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:161)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:152)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:91)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:112)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:94)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:87)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:216)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:212)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:137)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:156)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:201)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:170)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:94)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:59)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:142)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.InterceptingLauncher.lambda$execute$1(InterceptingLauncher.java:39)
+	at org.junit.platform.launcher.core.ClasspathAlignmentCheckingLauncherInterceptor.intercept(ClasspathAlignmentCheckingLauncherInterceptor.java:25)
+	at org.junit.platform.launcher.core.InterceptingLauncher.execute(InterceptingLauncher.java:38)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.apache.maven.surefire.junitplatform.LauncherAdapter.executeWithoutCancellationToken(LauncherAdapter.java:60)
+	at org.apache.maven.surefire.junitplatform.LauncherAdapter.execute(LauncherAdapter.java:52)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:203)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:168)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:136)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></system-out>
+  </testcase>
+  <testcase name="cleansArchivesPeriodicallyEvenWithoutNewLogEvents" classname="com.nihongo.logging.FileLoggingTest" time="1.024"/>
+</testsuite>

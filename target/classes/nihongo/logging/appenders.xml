@@ -1,0 +1,68 @@
+<included>
+  <conversionRule conversionWord="safeMessage" class="com.nihongo.logging.SafeMessageConverter"/>
+  <conversionRule conversionWord="safeException" class="com.nihongo.logging.SafeThrowableConverter"/>
+  <property name="LOG_PATTERN" value="%d{yyyy-MM-dd'T'HH:mm:ss.SSSXXX,UTC} %-5level [%thread] %logger{48} - %safeMessage%n%safeException"/>
+  <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder><charset>UTF-8</charset><pattern>${LOG_PATTERN}</pattern></encoder>
+  </appender>
+  <appender name="APPLICATION_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <file>${LOG_ROOT}/${SERVICE_NAME}/application.log</file>
+    <rollingPolicy class="com.nihongo.logging.RetainingRollingPolicy">
+      <fileNamePattern>${LOG_ROOT}/${SERVICE_NAME}/archive/application.%d{yyyy-MM-dd,UTC}.%i.log.gz</fileNamePattern>
+      <maxFileSize>${LOG_MAX_FILE_SIZE:-20MB}</maxFileSize><maxHistory>${LOG_RETENTION_DAYS:-14}</maxHistory>
+      <totalSizeCap>${LOG_TOTAL_SIZE_CAP:-200MB}</totalSizeCap><cleanHistoryOnStart>true</cleanHistoryOnStart><cleanupIntervalSeconds>${LOG_CLEANUP_INTERVAL_SECONDS:-3600}</cleanupIntervalSeconds>
+    </rollingPolicy>
+    <encoder><charset>UTF-8</charset><pattern>${LOG_PATTERN}</pattern></encoder>
+  </appender>
+  <appender name="KAFKA_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <file>${LOG_ROOT}/${SERVICE_NAME}/kafka.log</file>
+    <rollingPolicy class="com.nihongo.logging.RetainingRollingPolicy">
+      <fileNamePattern>${LOG_ROOT}/${SERVICE_NAME}/archive/kafka.%d{yyyy-MM-dd,UTC}.%i.log.gz</fileNamePattern>
+      <maxFileSize>${LOG_MAX_FILE_SIZE:-20MB}</maxFileSize><maxHistory>${LOG_RETENTION_DAYS:-14}</maxHistory>
+      <totalSizeCap>${LOG_TOTAL_SIZE_CAP:-200MB}</totalSizeCap><cleanHistoryOnStart>true</cleanHistoryOnStart><cleanupIntervalSeconds>${LOG_CLEANUP_INTERVAL_SECONDS:-3600}</cleanupIntervalSeconds>
+    </rollingPolicy>
+    <encoder><charset>UTF-8</charset><pattern>${LOG_PATTERN}</pattern></encoder>
+  </appender>
+  <appender name="SOCKET_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <file>${LOG_ROOT}/${SERVICE_NAME}/socket.log</file>
+    <rollingPolicy class="com.nihongo.logging.RetainingRollingPolicy">
+      <fileNamePattern>${LOG_ROOT}/${SERVICE_NAME}/archive/socket.%d{yyyy-MM-dd,UTC}.%i.log.gz</fileNamePattern>
+      <maxFileSize>${LOG_MAX_FILE_SIZE:-20MB}</maxFileSize><maxHistory>${LOG_RETENTION_DAYS:-14}</maxHistory>
+      <totalSizeCap>${LOG_TOTAL_SIZE_CAP:-200MB}</totalSizeCap><cleanHistoryOnStart>true</cleanHistoryOnStart><cleanupIntervalSeconds>${LOG_CLEANUP_INTERVAL_SECONDS:-3600}</cleanupIntervalSeconds>
+    </rollingPolicy>
+    <encoder><charset>UTF-8</charset><pattern>${LOG_PATTERN}</pattern></encoder>
+  </appender>
+  <appender name="SQL_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <file>${LOG_ROOT}/${SERVICE_NAME}/sql.log</file>
+    <rollingPolicy class="com.nihongo.logging.RetainingRollingPolicy">
+      <fileNamePattern>${LOG_ROOT}/${SERVICE_NAME}/archive/sql.%d{yyyy-MM-dd,UTC}.%i.log.gz</fileNamePattern>
+      <maxFileSize>${SQL_MAX_FILE_SIZE:-10MB}</maxFileSize><maxHistory>${SQL_RETENTION_DAYS:-3}</maxHistory>
+      <totalSizeCap>${SQL_TOTAL_SIZE_CAP:-100MB}</totalSizeCap><cleanHistoryOnStart>true</cleanHistoryOnStart><cleanupIntervalSeconds>${LOG_CLEANUP_INTERVAL_SECONDS:-3600}</cleanupIntervalSeconds>
+    </rollingPolicy>
+    <encoder><charset>UTF-8</charset><pattern>${LOG_PATTERN}</pattern></encoder>
+  </appender>
+  <appender name="APPLICATION" class="ch.qos.logback.classic.AsyncAppender">
+    <queueSize>${LOG_ASYNC_QUEUE_SIZE:-2048}</queueSize><discardingThreshold>0</discardingThreshold><maxFlushTime>2000</maxFlushTime><appender-ref ref="APPLICATION_FILE"/>
+  </appender>
+  <appender name="KAFKA" class="ch.qos.logback.classic.AsyncAppender">
+    <queueSize>${LOG_ASYNC_QUEUE_SIZE:-2048}</queueSize><discardingThreshold>0</discardingThreshold><maxFlushTime>2000</maxFlushTime><appender-ref ref="KAFKA_FILE"/>
+  </appender>
+  <appender name="SOCKET" class="ch.qos.logback.classic.AsyncAppender">
+    <queueSize>${LOG_ASYNC_QUEUE_SIZE:-2048}</queueSize><discardingThreshold>0</discardingThreshold><maxFlushTime>2000</maxFlushTime><appender-ref ref="SOCKET_FILE"/>
+  </appender>
+  <appender name="SQL" class="ch.qos.logback.classic.AsyncAppender">
+    <queueSize>${LOG_ASYNC_QUEUE_SIZE:-2048}</queueSize><discardingThreshold>0</discardingThreshold><maxFlushTime>2000</maxFlushTime><appender-ref ref="SQL_FILE"/>
+  </appender>
+  <logger name="nihongo.kafka" level="${KAFKA_LOG_LEVEL:-INFO}" additivity="false"><appender-ref ref="KAFKA"/><appender-ref ref="CONSOLE"/></logger>
+  <logger name="org.apache.kafka" level="WARN" additivity="false"><appender-ref ref="KAFKA"/><appender-ref ref="CONSOLE"/></logger>
+  <logger name="org.springframework.kafka" level="WARN" additivity="false"><appender-ref ref="KAFKA"/><appender-ref ref="CONSOLE"/></logger>
+  <logger name="nihongo.socket" level="${SOCKET_LOG_LEVEL:-INFO}" additivity="false"><appender-ref ref="SOCKET"/><appender-ref ref="CONSOLE"/></logger>
+  <logger name="org.springframework.web.socket" level="WARN" additivity="false"><appender-ref ref="SOCKET"/><appender-ref ref="CONSOLE"/></logger>
+  <logger name="org.springframework.messaging" level="WARN" additivity="false"><appender-ref ref="SOCKET"/><appender-ref ref="CONSOLE"/></logger>
+  <logger name="org.hibernate.SQL" level="${SQL_LOG_LEVEL:-OFF}" additivity="false"><appender-ref ref="SQL"/></logger>
+  <logger name="org.hibernate.SQL_SLOW" level="INFO" additivity="false"><appender-ref ref="SQL"/></logger>
+  <logger name="org.hibernate.orm.jdbc.bind" level="OFF"/>
+  <logger name="org.hibernate.orm.jdbc.extract" level="OFF"/>
+  <logger name="org.hibernate.type.descriptor.sql.BasicBinder" level="OFF"/>
+  <root level="${APP_LOG_LEVEL:-INFO}"><appender-ref ref="APPLICATION"/><appender-ref ref="CONSOLE"/></root>
+</included>
