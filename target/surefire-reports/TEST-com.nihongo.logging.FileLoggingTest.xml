@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.nihongo.logging.FileLoggingTest" time="3.216" tests="6" errors="0" skipped="0" failures="0" flakes="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.nihongo.logging.FileLoggingTest" time="3.523" tests="6" errors="0" skipped="0" failures="0" flakes="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\Admin\AppData\Local\Temp\surefire11005225633415689563\surefirebooter-20261016191227516_3.jar C:\Users\Admin\AppData\Local\Temp\surefire11005225633415689563 2026-10-16T19-12-27_325-jvmRun1 surefire-20261016191227516_1tmp surefire_0-20261016191227516_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Admin\AppData\Local\Temp\surefire9412587071093292268\surefirebooter-20261017165141436_3.jar C:\Users\Admin\AppData\Local\Temp\surefire9412587071093292268 2026-10-17T16-51-41_172-jvmRun1 surefire-20261017165141436_1tmp surefire_0-20261017165141436_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Admin\Desktop\microservice\common-logging\target\test-classes;C:\Users\Admin\Desktop\microservice\common-logging\target\classes;C:\Users\Admin\.m2\repository\ch\qos\logback\logback-classic\1.5.34\logback-classic-1.5.34.jar;C:\Users\Admin\.m2\repository\ch\qos\logback\logback-core\1.5.34\logback-core-1.5.34.jar;C:\Users\Admin\.m2\repository\org\slf4j\slf4j-api\2.0.18\slf4j-api-2.0.18.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.5.15\spring-boot-starter-test-3.5.15.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-starter\3.5.15\spring-boot-starter-3.5.15.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot\3.5.15\spring-boot-3.5.15.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-context\6.2.19\spring-context-6.2.19.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-aop\6.2.19\spring-aop-6.2.19.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-beans\6.2.19\spring-beans-6.2.19.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-expression\6.2.19\spring-expression-6.2.19.jar;C:\Users\Admin\.m2\repository\io\micrometer\micrometer-observation\1.15.12\micrometer-observation-1.15.12.jar;C:\Users\Admin\.m2\repository\io\micrometer\micrometer-commons\1.15.12\micrometer-commons-1.15.12.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.5.15\spring-boot-autoconfigure-3.5.15.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.5.15\spring-boot-starter-logging-3.5.15.jar;C:\Users\Admin\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.24.3\log4j-to-slf4j-2.24.3.jar;C:\Users\Admin\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\Admin\.m2\repository\org\slf4j\jul-to-slf4j\2.0.18\jul-to-slf4j-2.0.18.jar;C:\Users\Admin\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\Admin\.m2\repository\org\yaml\snakeyaml\2.4\snakeyaml-2.4.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-test\3.5.15\spring-boot-test-3.5.15.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.5.15\spring-boot-test-autoconfigure-3.5.15.jar;C:\Users\Admin\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\Admin\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.5\jakarta.xml.bind-api-4.0.5.jar;C:\Users\Admin\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.4\jakarta.activation-api-2.1.4.jar;C:\Users\Admin\.m2\repository\net\minidev\json-smart\2.5.2\json-smart-2.5.2.jar;C:\Users\Admin\.m2\repository\net\minidev\accessors-smart\2.5.2\accessors-smart-2.5.2.jar;C:\Users\Admin\.m2\repository\org\ow2\asm\asm\9.7.1\asm-9.7.1.jar;C:\Users\Admin\.m2\repository\org\assertj\assertj-core\3.27.7\assertj-core-3.27.7.jar;C:\Users\Admin\.m2\repository\net\bytebuddy\byte-buddy\1.17.8\byte-buddy-1.17.8.jar;C:\Users\Admin\.m2\repository\org\awaitility\awaitility\4.2.2\awaitility-4.2.2.jar;C:\Users\Admin\.m2\repository\org\hamcrest\hamcrest\3.0\hamcrest-3.0.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter\5.12.2\junit-jupiter-5.12.2.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.12.2\junit-jupiter-api-5.12.2.jar;C:\Users\Admin\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-commons\1.12.2\junit-platform-commons-1.12.2.jar;C:\Users\Admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.12.2\junit-jupiter-params-5.12.2.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.12.2\junit-jupiter-engine-5.12.2.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-engine\1.12.2\junit-platform-engine-1.12.2.jar;C:\Users\Admin\.m2\repository\org\mockito\mockito-core\5.17.0\mockito-core-5.17.0.jar;C:\Users\Admin\.m2\repository\net\bytebuddy\byte-buddy-agent\1.17.8\byte-buddy-agent-1.17.8.jar;C:\Users\Admin\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\Admin\.m2\repository\org\mockito\mockito-junit-jupiter\5.17.0\mockito-junit-jupiter-5.17.0.jar;C:\Users\Admin\.m2\repository\org\skyscreamer\jsonassert\1.5.3\jsonassert-1.5.3.jar;C:\Users\Admin\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-core\6.2.19\spring-core-6.2.19.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-jcl\6.2.19\spring-jcl-6.2.19.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-test\6.2.19\spring-test-6.2.19.jar;C:\Users\Admin\.m2\repository\org\xmlunit\xmlunit-core\2.10.4\xmlunit-core-2.10.4.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Admin\AppData\Local\Temp\surefire11005225633415689563\surefirebooter-20261016191227516_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Admin\AppData\Local\Temp\surefire9412587071093292268\surefirebooter-20261017165141436_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
@@ -49,167 +49,167 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Admin\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\powershell;C:\Users\Admin\.codex\tmp\arg0\codex-arg0hrhtzp;C:\Users\Admin\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\libheif\libheif\bin;C:\Users\Admin\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\jxrlib\jxrlib\bin;C:\Users\Admin\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\poppler\Library\bin;C:\Users\Admin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Windows\System32\wbem;C:\Program Files\dotnet\;C:\Users\Admin\Desktop\apache-maven-3.9.14\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Admin\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\powershell;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Roaming\npm;C:\Kafka\bin\windows;C:\Users\Admin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\fallback;C:\Users\Admin\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin;C:\Users\Admin\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\git\cmd;C:\Users\Admin\AppData\Local\OpenAI\Codex\bin\77fbd4d52e601e0a;C:\Users\Admin\AppData\Local\OpenAI\Codex\bin\9614f1d9b40d9c4f;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Admin\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\powershell;C:\Users\Admin\.codex\tmp\arg0-windows\codex-arg0AqJOp9;C:\Users\Admin\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\libheif\libheif\bin;C:\Users\Admin\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\jxrlib\jxrlib\bin;C:\Users\Admin\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\poppler\Library\bin;C:\Users\Admin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Windows\System32\wbem;C:\Program Files\dotnet\;C:\Users\Admin\Desktop\apache-maven-3.9.14\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Admin\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\powershell;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin\AppData\Roaming\npm;C:\Kafka\bin\windows;C:\Users\Admin\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\fallback;C:\Users\Admin\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin;C:\Users\Admin\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\git\cmd;C:\Users\Admin\AppData\Local\OpenAI\Codex\bin\d6efb6feb729707e;C:\Users\Admin\AppData\Local\OpenAI\Codex\bin\e78bad9887fa50cf;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="deletesExpiredArchivesAtStartupAndPreservesUnrelatedFiles" classname="com.nihongo.logging.FileLoggingTest" time="0.315"/>
-  <testcase name="rollsAndCompressesFilesAndCapsArchiveSize" classname="com.nihongo.logging.FileLoggingTest" time="1.749">
-    <system-out><![CDATA[2026-10-16T12:12:28.466Z INFO  [main] nihongo.kafka - event=test eventId=75b5b59b-b0f8-4cb1-9bf7-b4af4755e76a data=b8b7e7ab-4282-47da-b75c-da19035d9528
-2026-10-16T12:12:28.472Z INFO  [main] nihongo.kafka - event=test eventId=35b096ad-98c6-45fe-beb1-a222e0523ef6 data=43a4a618-9b22-421e-a1b2-5f3447196a3d
-2026-10-16T12:12:28.474Z INFO  [main] nihongo.kafka - event=test eventId=4aa13087-a7fc-465a-b549-9869c6c2bfff data=4e13b495-203c-46e0-a698-dde87e84f494
-2026-10-16T12:12:28.475Z INFO  [main] nihongo.kafka - event=test eventId=372f50d2-9679-4182-b97f-dd7adab7fbac data=da494d41-31a0-4d08-923c-75e612c3cacf
-2026-10-16T12:12:28.476Z INFO  [main] nihongo.kafka - event=test eventId=dda7dfce-337d-4257-8658-03c3543cb461 data=1f2cbf54-94d0-4915-9591-707e5634dace
-2026-10-16T12:12:28.476Z INFO  [main] nihongo.kafka - event=test eventId=f33ebb21-2d53-4c0f-8e91-e1775cf30d7a data=71b8433a-c6a1-458a-9a51-6c868dbe40e1
-2026-10-16T12:12:28.476Z INFO  [main] nihongo.kafka - event=test eventId=f881c18e-a2c3-4629-a30a-5c16dce46005 data=d905687a-0205-4ae1-91b3-a37f3a77182f
-2026-10-16T12:12:28.477Z INFO  [main] nihongo.kafka - event=test eventId=bc786084-84ee-47d4-a2fd-042a91ee9066 data=89dae413-a0be-4e65-97e7-9e12cc1685e0
-2026-10-16T12:12:28.477Z INFO  [main] nihongo.kafka - event=test eventId=220f6999-0d14-43bb-a123-aaafce67f319 data=db6e4300-11b7-460a-9ec3-d83e14f3aadd
-2026-10-16T12:12:28.477Z INFO  [main] nihongo.kafka - event=test eventId=51282f3b-979e-4d43-b86e-b04d58f0309f data=22cd3260-23b0-475b-97b8-ba0cb1ac30c7
-2026-10-16T12:12:28.478Z INFO  [main] nihongo.kafka - event=test eventId=43885f34-6249-4d93-86d4-9974ca0afbd2 data=5db736db-faf2-4b5d-9b88-a750911a0b4d
-2026-10-16T12:12:28.478Z INFO  [main] nihongo.kafka - event=test eventId=9e12a6f7-1ebb-4de5-9402-bb50e19763ad data=af3ed52b-d8d5-4b81-9710-ab0178ccaa0a
-2026-10-16T12:12:28.609Z INFO  [main] nihongo.kafka - event=test eventId=42108d85-4028-492d-a250-8b43e02fa52f data=12eb6197-62ff-429b-a5f5-b23716a62cc6
-2026-10-16T12:12:28.609Z INFO  [main] nihongo.kafka - event=test eventId=3203f6b9-92ab-495b-89a3-2d47da00ffd4 data=3bfd54a5-3aa4-4d90-a4ae-dd2fba480ba9
-2026-10-16T12:12:28.610Z INFO  [main] nihongo.kafka - event=test eventId=0875e93b-2802-45b1-b437-993eb82a27f8 data=dc1ef64e-4647-4543-be0b-971a603af0da
-2026-10-16T12:12:28.610Z INFO  [main] nihongo.kafka - event=test eventId=a61629a3-90e7-4a60-8331-e2848494dad2 data=11c54b23-64b7-47c6-8d4b-281da7b32ea1
-2026-10-16T12:12:28.610Z INFO  [main] nihongo.kafka - event=test eventId=37762731-70a8-4b41-844f-3b8a647e037a data=7d188add-b1af-49f8-852b-c4244075940c
-2026-10-16T12:12:28.611Z INFO  [main] nihongo.kafka - event=test eventId=6f908760-8b32-499d-a89c-a9c110a802d4 data=ade44319-72be-4fd7-bd6e-6b904e45173b
-2026-10-16T12:12:28.611Z INFO  [main] nihongo.kafka - event=test eventId=56da36fb-4021-4a34-ae4b-ee4f951ea52b data=cd26b42a-45df-424f-bc3f-ed9779a60818
-2026-10-16T12:12:28.611Z INFO  [main] nihongo.kafka - event=test eventId=eae3aa03-443f-418f-ace8-ede16c4d088f data=826bc1b9-7791-457d-b69d-50c67fab6bde
-2026-10-16T12:12:28.612Z INFO  [main] nihongo.kafka - event=test eventId=468ab06c-3889-494c-870d-00106cd31d42 data=b2785170-9fe1-40c8-8284-8075d3895bbb
-2026-10-16T12:12:28.612Z INFO  [main] nihongo.kafka - event=test eventId=be719bc6-632f-4a5e-96be-3f32adceb4e1 data=4e4a4f47-01b3-47cf-805b-efa49d417f14
-2026-10-16T12:12:28.613Z INFO  [main] nihongo.kafka - event=test eventId=36cdb721-8e6b-46fa-a0ef-375543f7f04a data=15e95612-d57d-4a9d-9a5c-387da63741a3
-2026-10-16T12:12:28.613Z INFO  [main] nihongo.kafka - event=test eventId=64413a1b-2687-4b67-b39c-370529babd4a data=16058c59-707f-4759-af63-fc9187b57d28
-2026-10-16T12:12:28.746Z INFO  [main] nihongo.kafka - event=test eventId=5f9c5667-1c1f-435b-9ada-2d78645ca24e data=718ab75f-d572-4466-8cd4-8a302d1f7ebf
-2026-10-16T12:12:28.746Z INFO  [main] nihongo.kafka - event=test eventId=dbf6adb9-7df8-4563-b1a6-bbab588d0d0d data=641aace8-82f2-458b-89d4-87b7a8bfc837
-2026-10-16T12:12:28.747Z INFO  [main] nihongo.kafka - event=test eventId=1affe055-be8a-47ac-a4eb-8c2f709615e3 data=6ac737dc-ce3b-49bf-b044-883db19b7330
-2026-10-16T12:12:28.747Z INFO  [main] nihongo.kafka - event=test eventId=ebe195f2-1bf6-4b51-83d6-f16d605eb927 data=9ad0d26c-0cff-4ed1-800e-b34adcfe8c86
-2026-10-16T12:12:28.747Z INFO  [main] nihongo.kafka - event=test eventId=6a91711e-0c25-4e8e-997f-760da4f0f529 data=49aed7a1-9a69-4d4c-91ba-13c38b1047e2
-2026-10-16T12:12:28.748Z INFO  [main] nihongo.kafka - event=test eventId=f5edff44-7870-47d4-ae2b-fa6c9d3e1e99 data=454e8b2d-d3b4-4831-85d1-2839db1b233d
-2026-10-16T12:12:28.748Z INFO  [main] nihongo.kafka - event=test eventId=5a44727d-fce7-45d9-90c4-b89f2b93f1e7 data=a036c8d0-1d4e-4414-8498-7c4365f1d3e7
-2026-10-16T12:12:28.748Z INFO  [main] nihongo.kafka - event=test eventId=6d854026-19c3-49e8-b940-1daac402f8d4 data=8984c948-f6a2-4702-ad23-c31f48b0910a
-2026-10-16T12:12:28.748Z INFO  [main] nihongo.kafka - event=test eventId=d647cbb9-c3b7-466f-a9ff-a0960ff241d5 data=3b95dda4-8ddd-4599-b325-3298dc12d454
-2026-10-16T12:12:28.748Z INFO  [main] nihongo.kafka - event=test eventId=58221616-4530-4a52-b0de-4f0e55bf1f1e data=4d0001b0-8b3a-4431-ac96-f859da348e61
-2026-10-16T12:12:28.749Z INFO  [main] nihongo.kafka - event=test eventId=236e7413-4353-490a-96df-2fe5324d3945 data=bbb3b0dc-93cf-474f-899e-f0e4cc5fdc88
-2026-10-16T12:12:28.749Z INFO  [main] nihongo.kafka - event=test eventId=8428198e-b8d4-4509-8517-b2d8e8588d6d data=24db3939-33bf-48c9-940e-3bf6312640b1
-2026-10-16T12:12:28.884Z INFO  [main] nihongo.kafka - event=test eventId=cf43142e-cd03-4e4b-8b9d-10b4237d17fd data=bb1c549a-4d90-4ea2-92c3-eb462f5321e4
-2026-10-16T12:12:28.884Z INFO  [main] nihongo.kafka - event=test eventId=54aadeb9-ba48-418a-beaf-a199eb3014e2 data=51c781fb-1e8f-4e59-9268-ed4f7174ae71
-2026-10-16T12:12:28.884Z INFO  [main] nihongo.kafka - event=test eventId=4dd9fe32-ae26-4d03-a702-aa4b7b443fb3 data=c212a1a1-fd72-4d36-b3ac-d8466b58df42
-2026-10-16T12:12:28.884Z INFO  [main] nihongo.kafka - event=test eventId=8eaec144-cc97-4b8a-94c8-e31242288fe9 data=8ad6fe25-9490-45b0-9c67-4251cd67d902
-2026-10-16T12:12:28.884Z INFO  [main] nihongo.kafka - event=test eventId=3974a3cb-b6de-4ad7-95f2-046335f387fb data=9035c3a0-50d1-4761-9d8a-8e9247ec151f
-2026-10-16T12:12:28.885Z INFO  [main] nihongo.kafka - event=test eventId=defb99be-69c6-4d80-b2b7-f9e311b70d45 data=7e9738ad-5e38-4f33-8289-c55034ae62c0
-2026-10-16T12:12:28.885Z INFO  [main] nihongo.kafka - event=test eventId=c9968237-e285-40d3-b20f-02e5322b70a0 data=5cb0b55e-ab8f-4bdf-b811-e8adfe7472ee
-2026-10-16T12:12:28.885Z INFO  [main] nihongo.kafka - event=test eventId=44ef2705-b5be-4478-9fa9-20c45b0864ce data=591d50cd-02bd-45a3-9619-f29c7a226392
-2026-10-16T12:12:28.885Z INFO  [main] nihongo.kafka - event=test eventId=9d353a6f-d02c-4961-bebe-6cc70da41c63 data=1df8457f-ad65-402a-95cc-195ce424565f
-2026-10-16T12:12:28.885Z INFO  [main] nihongo.kafka - event=test eventId=bed9da80-a8fb-409f-870a-152d44c8926a data=60dc4748-f472-42c3-b470-f9cd76bde5c1
-2026-10-16T12:12:28.886Z INFO  [main] nihongo.kafka - event=test eventId=162bc7f2-874a-4f32-8e3c-8004e0f1f55c data=8b7d0a82-c007-4e29-a8f7-6e7d6dc94769
-2026-10-16T12:12:28.886Z INFO  [main] nihongo.kafka - event=test eventId=2fc7bd28-1afa-401d-8bae-4cd39d37954c data=1c9a2f36-bab0-4245-b77c-b3d3d845f169
-2026-10-16T12:12:29.020Z INFO  [main] nihongo.kafka - event=test eventId=d697bbb8-73eb-4b71-9396-311734fdbe85 data=63f21d3b-7184-4ca2-bceb-53fa3110d273
-2026-10-16T12:12:29.020Z INFO  [main] nihongo.kafka - event=test eventId=9fc8fc8a-c4b3-442d-a5ce-a44a9f85318e data=42e8cda8-0807-4570-bf91-7451beb567b2
-2026-10-16T12:12:29.020Z INFO  [main] nihongo.kafka - event=test eventId=5cd3fa93-2d2a-455f-93c4-b57b9216b9dc data=a36f1b9b-e49a-4761-8553-baab649559cb
-2026-10-16T12:12:29.020Z INFO  [main] nihongo.kafka - event=test eventId=053d72a9-4cbf-43ba-b45a-3659a50cea4b data=f7f61f8c-3a52-4c5a-809e-70308a48be7a
-2026-10-16T12:12:29.021Z INFO  [main] nihongo.kafka - event=test eventId=939a980e-1e1a-45ff-aa2d-635919f6b550 data=2d47c42c-b7be-4d18-bbe7-9ddaa03df861
-2026-10-16T12:12:29.021Z INFO  [main] nihongo.kafka - event=test eventId=1ff36bf3-52c1-4ab1-87bf-c5b86f6d1614 data=dab74930-b561-4e0a-8e98-70df5b985f40
-2026-10-16T12:12:29.021Z INFO  [main] nihongo.kafka - event=test eventId=5ff4d230-647e-414f-8b04-ea6439d5f3e0 data=8408ddb7-b474-4b95-8354-0e5ca7510f00
-2026-10-16T12:12:29.021Z INFO  [main] nihongo.kafka - event=test eventId=04fa8e26-f597-4402-abda-7cd29d4cac18 data=8fb4a7b9-53e1-4432-be7d-8112693cacee
-2026-10-16T12:12:29.022Z INFO  [main] nihongo.kafka - event=test eventId=eec21a66-c23f-4a71-9535-6263a3a03788 data=80868fbf-68a3-489c-b34e-76cf95ebff2e
-2026-10-16T12:12:29.022Z INFO  [main] nihongo.kafka - event=test eventId=225f038c-50bc-4851-9827-2c6a239e9462 data=09dff046-5f7f-4168-951b-5653aec8f387
-2026-10-16T12:12:29.022Z INFO  [main] nihongo.kafka - event=test eventId=8b2a008a-69b8-436a-ab05-301ffb2a7602 data=bd3492b6-6ad7-4ab5-bd67-a054f678ca9f
-2026-10-16T12:12:29.022Z INFO  [main] nihongo.kafka - event=test eventId=fd2b990a-ced4-473c-941c-34320839747e data=44806b81-deb1-408f-a9f7-0b84befa0a93
-2026-10-16T12:12:29.160Z INFO  [main] nihongo.kafka - event=test eventId=7859eb30-b698-4900-b0a1-c2ad94c951f6 data=e4c9e829-7d74-47e9-9588-38de04e5af0b
-2026-10-16T12:12:29.160Z INFO  [main] nihongo.kafka - event=test eventId=87aa5086-4ed4-425a-93d2-7f8368c0c814 data=828c526c-90bc-437b-aafd-103a8b4f2a9b
-2026-10-16T12:12:29.160Z INFO  [main] nihongo.kafka - event=test eventId=1502995b-4363-4cf8-896c-2d15a9b1f379 data=a876edaf-15ee-4917-bab7-72e35b4bba16
-2026-10-16T12:12:29.160Z INFO  [main] nihongo.kafka - event=test eventId=519dec41-850b-484c-9d57-78f09c24bef8 data=9ac12d9f-ed89-4777-8a00-c4bff7cec980
-2026-10-16T12:12:29.161Z INFO  [main] nihongo.kafka - event=test eventId=caf0cb6e-74d4-4b7d-aead-ce25bcc19d00 data=40e468cb-e0f3-4843-aea3-37e3f9a709bf
-2026-10-16T12:12:29.161Z INFO  [main] nihongo.kafka - event=test eventId=951ad054-c2ee-488d-8243-df8a28bee847 data=292a480b-d3ef-4738-a363-54c084ba4f83
-2026-10-16T12:12:29.161Z INFO  [main] nihongo.kafka - event=test eventId=b0c1d2f8-5ba7-4486-a30d-41619c6023a7 data=a97eab90-abc8-44c1-a2c8-2ebfae42f1e1
-2026-10-16T12:12:29.161Z INFO  [main] nihongo.kafka - event=test eventId=c3bdf298-b110-491a-bcb5-acd7fc619a13 data=9391e3c7-93bd-48d6-935b-71f9435c51a9
-2026-10-16T12:12:29.161Z INFO  [main] nihongo.kafka - event=test eventId=e3ff7dff-a52a-403c-94c9-c252abdd6b82 data=b6bf8120-f84c-461c-8c5c-fd2281dc6759
-2026-10-16T12:12:29.162Z INFO  [main] nihongo.kafka - event=test eventId=b21bfd11-efbc-413a-98c1-a87b435a31cd data=1c0480eb-b497-4787-a7bc-0a5cda666eee
-2026-10-16T12:12:29.162Z INFO  [main] nihongo.kafka - event=test eventId=2a6bd0eb-7736-4c7f-b263-8e82f14bcad4 data=e1f2dd68-7925-434a-9279-ab953fd7ce61
-2026-10-16T12:12:29.162Z INFO  [main] nihongo.kafka - event=test eventId=f52fa89b-1b7b-468f-9cb1-a8aac1ac03f9 data=46e782e5-ca03-4943-bc69-81e95291c142
-2026-10-16T12:12:29.299Z INFO  [main] nihongo.kafka - event=test eventId=1dc3472e-7ddd-4401-9d86-93851ba0e250 data=08e62e05-9007-4129-a838-894a4ec81971
-2026-10-16T12:12:29.299Z INFO  [main] nihongo.kafka - event=test eventId=9aa41de3-de94-40a9-821a-92f58282b9a4 data=da5b6686-7a80-449d-9963-105233caf809
-2026-10-16T12:12:29.299Z INFO  [main] nihongo.kafka - event=test eventId=3072e13c-4203-4d96-b051-4062861eb1bf data=0b46d7b4-3259-4c91-9dc2-967c58e815e4
-2026-10-16T12:12:29.299Z INFO  [main] nihongo.kafka - event=test eventId=f3ff7691-7af1-46f0-8b8d-c7e766f26a29 data=881fe46e-12e1-4469-b1c3-012ebd3c1dc8
-2026-10-16T12:12:29.299Z INFO  [main] nihongo.kafka - event=test eventId=c2f35167-4777-4a7e-b54d-03368f67fc97 data=f53cd2b3-b19b-4c81-a4c7-90b64e4df26e
-2026-10-16T12:12:29.300Z INFO  [main] nihongo.kafka - event=test eventId=3629fae2-2fcc-4cdc-800f-5461031cddc6 data=7ac520a4-205c-407a-a2bd-1b9e6edff4e1
-2026-10-16T12:12:29.300Z INFO  [main] nihongo.kafka - event=test eventId=3ce86a46-2d2f-421f-b374-d0703383a1b7 data=f4819fd6-d98a-469b-91be-3b15df6bb3e0
-2026-10-16T12:12:29.300Z INFO  [main] nihongo.kafka - event=test eventId=4ba8155b-770f-485c-8cf1-7d464e7a4656 data=9a4fcddb-f602-43ac-8c76-ea26338818d3
-2026-10-16T12:12:29.300Z INFO  [main] nihongo.kafka - event=test eventId=cb6b8ea7-f94d-4207-a296-31894913a742 data=8c40fb03-2bc4-452c-b12f-52d7d78bd38e
-2026-10-16T12:12:29.300Z INFO  [main] nihongo.kafka - event=test eventId=1fbd66f5-dc83-4644-a3f2-5896a6422c01 data=e531e927-1d9a-4ba5-ad01-217eec5d62eb
-2026-10-16T12:12:29.300Z INFO  [main] nihongo.kafka - event=test eventId=da267994-efd1-4819-8ca0-78210d877e91 data=83a0f308-9eb2-4493-aae9-c7b5d37b7ae4
-2026-10-16T12:12:29.301Z INFO  [main] nihongo.kafka - event=test eventId=daec84da-9260-44a0-99cd-40db4711176b data=ba71fe7f-33d3-49b1-b9bc-c7536b385109
-2026-10-16T12:12:29.440Z INFO  [main] nihongo.kafka - event=test eventId=0801cc03-328a-4b10-8798-24f5cbc64881 data=859a356f-131e-4c47-a934-786e89bcb54f
-2026-10-16T12:12:29.440Z INFO  [main] nihongo.kafka - event=test eventId=92e66155-c785-4518-920a-d099582df6fe data=1cf752cd-370f-44ff-9214-9719624fb06c
-2026-10-16T12:12:29.440Z INFO  [main] nihongo.kafka - event=test eventId=d33cf479-e574-44a8-9159-c1d4e33b30b9 data=cd89d44a-d3fb-459b-99c3-85cf65c78383
-2026-10-16T12:12:29.440Z INFO  [main] nihongo.kafka - event=test eventId=f32209ae-c778-441e-9bdb-fdc0c0168877 data=ce576f6e-5110-4482-8be1-ff9abf707447
-2026-10-16T12:12:29.441Z INFO  [main] nihongo.kafka - event=test eventId=044141fe-96ee-4e72-acc7-13fdb9b3d4f7 data=1dcfeb9d-85e0-45a2-bcb7-78f46b326b34
-2026-10-16T12:12:29.441Z INFO  [main] nihongo.kafka - event=test eventId=94e50b4c-a572-4a51-8dec-948d9d39bd5c data=4f3ce252-b7fb-4bf6-a47c-af1c933d2b3b
-2026-10-16T12:12:29.441Z INFO  [main] nihongo.kafka - event=test eventId=02afac14-f7c6-409d-bafd-4de2cd53b531 data=1de233e0-bb4b-470a-bd28-f4df97f5da8e
-2026-10-16T12:12:29.441Z INFO  [main] nihongo.kafka - event=test eventId=c64189f6-38e7-4732-ad62-511d0024a8c2 data=28c5f4ab-43ba-4c7a-b7c3-6901076ba9f8
-2026-10-16T12:12:29.441Z INFO  [main] nihongo.kafka - event=test eventId=91ba73c5-9a7b-426b-a1bf-ba1a9683721e data=dc52d1f2-c911-4468-9e1f-2132e7d710e3
-2026-10-16T12:12:29.441Z INFO  [main] nihongo.kafka - event=test eventId=45af3b93-b2b8-4cd5-9c6d-0d223f115f71 data=00a55137-6e2e-4d5e-890e-137187ba7419
-2026-10-16T12:12:29.442Z INFO  [main] nihongo.kafka - event=test eventId=3b028fc6-2bd9-4526-bbb9-d08543bcb483 data=e19b88d3-13a7-4ea1-9e7a-8a46b608d574
-2026-10-16T12:12:29.442Z INFO  [main] nihongo.kafka - event=test eventId=bb363639-f93d-4a2b-8dc0-d78fe55e36ea data=8ca6cd98-4547-4347-8ea1-ad81192ff5f9
-2026-10-16T12:12:29.581Z INFO  [main] nihongo.kafka - event=test eventId=4825e923-4c94-42ac-8201-f397e7fd5e08 data=800331c1-bd02-4acf-9baf-4236995af7b9
-2026-10-16T12:12:29.581Z INFO  [main] nihongo.kafka - event=test eventId=360a1524-8049-4f16-86b7-6f96a56e5301 data=0e2bc14a-65ba-45da-a18c-c129c3fd4f1c
-2026-10-16T12:12:29.581Z INFO  [main] nihongo.kafka - event=test eventId=494226d5-5207-4ce7-9837-e96b281f3b2d data=d3b234c1-49fb-40ce-afa3-203f155fca25
-2026-10-16T12:12:29.581Z INFO  [main] nihongo.kafka - event=test eventId=48049530-6889-4309-bb17-84ea50104497 data=2c93b9b1-9ea6-4f7d-90aa-910017c0cfd5
-2026-10-16T12:12:29.581Z INFO  [main] nihongo.kafka - event=test eventId=a550eae6-6911-4277-9311-30525912de89 data=a1607752-6e87-44aa-8ab9-bcd39d367731
-2026-10-16T12:12:29.582Z INFO  [main] nihongo.kafka - event=test eventId=fec04b02-98b1-4c16-a52e-e872f19a8508 data=cc3f15da-ee59-486f-b5c7-50502e5a0971
-2026-10-16T12:12:29.582Z INFO  [main] nihongo.kafka - event=test eventId=0cdb459d-8a96-461b-aa1b-b95dd8b0bc2e data=33aec160-2c4d-43e4-84a2-c46d822a7983
-2026-10-16T12:12:29.582Z INFO  [main] nihongo.kafka - event=test eventId=fca38d77-b302-49a4-afc2-974166bf1843 data=d338d9b6-1e03-45fd-8f74-1e53249ed62c
-2026-10-16T12:12:29.582Z INFO  [main] nihongo.kafka - event=test eventId=54632fbf-308a-44f1-bb52-046222698895 data=0c43e56f-3165-4c67-8254-7c8098428ab3
-2026-10-16T12:12:29.582Z INFO  [main] nihongo.kafka - event=test eventId=598a34e2-cfae-472a-8889-8db6a6cfee6a data=9209729a-16f3-4a9d-83c2-037a8ffe3a8e
-2026-10-16T12:12:29.582Z INFO  [main] nihongo.kafka - event=test eventId=8c450ba1-cb71-4951-bc32-c80bb6473b94 data=4e9116be-9a5f-4018-b7f6-06e09154c1da
-2026-10-16T12:12:29.582Z INFO  [main] nihongo.kafka - event=test eventId=34a25206-86b7-4275-b5d6-6db682b8cc47 data=6f1a2519-39a9-4e60-a19a-96a3c658789d
-2026-10-16T12:12:29.720Z INFO  [main] nihongo.kafka - event=test eventId=4304c0d6-2905-4b1e-bf1a-393bc57c311b data=a51ade76-11d5-43d6-a84a-e3573853e0f5
-2026-10-16T12:12:29.720Z INFO  [main] nihongo.kafka - event=test eventId=d6a653ee-2168-4b8a-a657-a13f8f8b3125 data=1f8194cd-17e3-4626-999c-89b97e309619
-2026-10-16T12:12:29.721Z INFO  [main] nihongo.kafka - event=test eventId=b8b0268a-caaa-48ef-99ad-cb8a392d5b2b data=a90e2771-b83c-43a3-97c7-2f258b6777a2
-2026-10-16T12:12:29.721Z INFO  [main] nihongo.kafka - event=test eventId=6087eb12-7497-4ea8-a356-a8291ff614b1 data=548b488f-1755-45de-8f3c-a0780b17508e
-2026-10-16T12:12:29.721Z INFO  [main] nihongo.kafka - event=test eventId=5b8a72ae-023e-41b2-aef6-b34802b5509a data=390e2c8b-6aa6-4e82-9a4e-5de3df0b0543
-2026-10-16T12:12:29.721Z INFO  [main] nihongo.kafka - event=test eventId=74c5d140-ee8b-490a-a93c-305a07a63043 data=606c7500-996e-4a21-b44b-0e09fd304560
-2026-10-16T12:12:29.721Z INFO  [main] nihongo.kafka - event=test eventId=4d9feffc-737f-4418-9996-bc6ad94901cc data=20f811d1-a584-4f16-bb67-70aae23e0246
-2026-10-16T12:12:29.721Z INFO  [main] nihongo.kafka - event=test eventId=bb23698a-abb6-43a0-9b76-db3a564307dc data=07934685-bef9-434b-b10c-c2f604936f18
-2026-10-16T12:12:29.721Z INFO  [main] nihongo.kafka - event=test eventId=0f03948a-5073-488e-ad73-f63fbd869af5 data=132cc101-5d39-46b1-9957-5e8f994e8daf
-2026-10-16T12:12:29.721Z INFO  [main] nihongo.kafka - event=test eventId=6531677e-0577-4a36-b1dc-9d5a92f7709f data=e026157d-931c-4037-a5df-37ca513e0a8e
-2026-10-16T12:12:29.721Z INFO  [main] nihongo.kafka - event=test eventId=e84314d7-7b6a-48d0-829b-d313b1318cf7 data=08776ec3-d813-4dd7-a992-f880c2d9e8cc
-2026-10-16T12:12:29.722Z INFO  [main] nihongo.kafka - event=test eventId=8f4ee8e5-91cc-42a7-940f-9113c877514d data=ab41a4c8-0883-429a-bb2d-dfd3d1a82e9b
-2026-10-16T12:12:29.859Z INFO  [main] nihongo.kafka - event=test eventId=8d72905c-c3ea-4e62-aaba-afcc859c86ae data=3e7a04a8-49d7-4046-b752-ccffc19f8b18
-2026-10-16T12:12:29.859Z INFO  [main] nihongo.kafka - event=test eventId=c4c59ae0-c988-4da6-90ea-e5095f85f8e3 data=7a9b38a0-bd21-47df-a2f8-990078ebcae0
-2026-10-16T12:12:29.859Z INFO  [main] nihongo.kafka - event=test eventId=b84daf84-31b6-465e-9b7d-cf1f0a7aa7f4 data=35847580-8a49-4d99-8b40-0a7f5cc8597b
-2026-10-16T12:12:29.859Z INFO  [main] nihongo.kafka - event=test eventId=365992c5-cefb-403f-8148-f7e896ecd83b data=43db963b-6738-453b-bb6a-ff7a537fcf17
-2026-10-16T12:12:29.860Z INFO  [main] nihongo.kafka - event=test eventId=3d34bf2b-ed0b-47df-8f0e-5e690059595a data=7fba9a96-0821-4e06-9738-2f649c2f0197
-2026-10-16T12:12:29.860Z INFO  [main] nihongo.kafka - event=test eventId=a1f51b51-ab6f-4bf5-96d4-aa8af4752dff data=7268bdff-a3ab-4cb9-b199-cce5fc9f46ed
-2026-10-16T12:12:29.860Z INFO  [main] nihongo.kafka - event=test eventId=71157ae2-349a-4fe0-9c37-6be9fbec566f data=d314174c-0ce7-4032-85a2-6c925c831526
-2026-10-16T12:12:29.861Z INFO  [main] nihongo.kafka - event=test eventId=09afaeb1-7da9-49f4-9f48-b2b939864b91 data=5188b92f-d336-408d-9441-fa2a8bbae54c
-2026-10-16T12:12:29.861Z INFO  [main] nihongo.kafka - event=test eventId=7f0b605b-4b7b-4e97-a2c2-101865d10fee data=bd187046-32a8-4689-81bb-50b658150e0b
-2026-10-16T12:12:29.861Z INFO  [main] nihongo.kafka - event=test eventId=1add1ca9-3cde-4552-8ef8-1dd6d46b1cab data=72b15268-49aa-413a-954d-b59d9af7b3d0
-2026-10-16T12:12:29.861Z INFO  [main] nihongo.kafka - event=test eventId=8753e1c6-c2b6-4b74-977e-550a9cd85b44 data=e3e6f2e6-06cc-4f49-8826-cfcd8447b533
-2026-10-16T12:12:29.861Z INFO  [main] nihongo.kafka - event=test eventId=c2aa41df-8b3c-4308-bfea-13eacc784e76 data=66d5376f-1b44-4e16-b4d3-c9c95b725db0
-2026-10-16T12:12:29.999Z INFO  [main] nihongo.kafka - event=test eventId=4bfb9fc0-11f4-4d54-90f1-10d9ad58f3f5 data=eb4ba48d-9976-480a-9a02-4dbda2ac6812
-2026-10-16T12:12:29.999Z INFO  [main] nihongo.kafka - event=test eventId=04576776-a2c2-44af-95f5-ec20548a857d data=d5fb9c71-3494-4b52-9bef-e87e7e4db7c6
-2026-10-16T12:12:29.999Z INFO  [main] nihongo.kafka - event=test eventId=c9502b1d-c80d-43a8-8290-7ec79d032260 data=aa91c901-9b33-4f8e-b60c-188595bae453
-2026-10-16T12:12:29.999Z INFO  [main] nihongo.kafka - event=test eventId=f500d3ec-e19e-4b96-ab5d-d4f5506dbf69 data=e169e787-fc68-468b-abae-749daf272832
-2026-10-16T12:12:29.999Z INFO  [main] nihongo.kafka - event=test eventId=949ba03d-d3f5-46aa-9c9b-2aeb453f5764 data=bcb84d68-39b7-4601-a59a-216d24c1a9fa
-2026-10-16T12:12:29.999Z INFO  [main] nihongo.kafka - event=test eventId=caed72c3-7599-4b89-aa93-89ddda7f827c data=f2c53aaf-d1f0-4715-b206-164f68039dac
-2026-10-16T12:12:29.999Z INFO  [main] nihongo.kafka - event=test eventId=95e45d82-022b-4edc-a725-009e4511c652 data=1a8f7154-0621-4eb8-85b1-28b98e881fe9
-2026-10-16T12:12:30.001Z INFO  [main] nihongo.kafka - event=test eventId=05f4304e-fb60-4c96-a62e-9afb6f075110 data=84a26b54-c782-4518-b7fd-3b6516623f02
-2026-10-16T12:12:30.001Z INFO  [main] nihongo.kafka - event=test eventId=bbff0655-eb9f-4110-bf22-e6ee21925215 data=a5e921a0-30a0-407d-a64f-fcaaaadb92db
-2026-10-16T12:12:30.001Z INFO  [main] nihongo.kafka - event=test eventId=a0ad808a-fa9d-4b23-8ac5-f010463b38ac data=166e72fe-a3e5-4a47-88e8-482f3bea7efb
-2026-10-16T12:12:30.001Z INFO  [main] nihongo.kafka - event=test eventId=9c575a8e-9873-4b03-96a3-7165793543c7 data=2ecb8537-4b6f-4068-bae7-c1f060f0c36a
-2026-10-16T12:12:30.001Z INFO  [main] nihongo.kafka - event=test eventId=d6ea2f94-0d5b-4bbb-9a2a-352a9b887194 data=a0245ed7-d22e-4562-80b0-127df7fed00d
+  <testcase name="deletesExpiredArchivesAtStartupAndPreservesUnrelatedFiles" classname="com.nihongo.logging.FileLoggingTest" time="0.498"/>
+  <testcase name="rollsAndCompressesFilesAndCapsArchiveSize" classname="com.nihongo.logging.FileLoggingTest" time="1.807">
+    <system-out><![CDATA[2026-10-17T09:51:42.867Z INFO  [main] nihongo.kafka - event=test eventId=e2bc67ad-ebff-4632-8a00-fc5ad043e901 data=cafbd491-e0d2-4c53-9065-4884201c03f0
+2026-10-17T09:51:42.874Z INFO  [main] nihongo.kafka - event=test eventId=de2215ad-4aa4-45b6-ac71-cec47b12d9dc data=c64c2aea-f535-4984-b059-2eded2ff0658
+2026-10-17T09:51:42.878Z INFO  [main] nihongo.kafka - event=test eventId=2f5aeeef-c31e-486f-963a-d64039dcd793 data=a176b1a4-7925-4c39-99c2-e19e647f7f12
+2026-10-17T09:51:42.879Z INFO  [main] nihongo.kafka - event=test eventId=de51ce88-f30a-4737-97ba-c1436b34ac51 data=be3347d6-31e9-4354-8164-6bab64d3db6d
+2026-10-17T09:51:42.879Z INFO  [main] nihongo.kafka - event=test eventId=4343f12c-63e7-4c66-a4ea-5af64b3d6f91 data=a16a7ff3-f06d-498c-b3e4-798faae0cdd4
+2026-10-17T09:51:42.880Z INFO  [main] nihongo.kafka - event=test eventId=ddddbadc-3cc6-46d7-949b-58cde38e6cee data=04695a10-e53a-445b-a547-5d4ffd040780
+2026-10-17T09:51:42.880Z INFO  [main] nihongo.kafka - event=test eventId=330f102f-f812-484b-9dd3-28e362d424e6 data=d258619e-1f96-43d8-83d3-bb28ef674c98
+2026-10-17T09:51:42.881Z INFO  [main] nihongo.kafka - event=test eventId=83eb2da8-b0cd-446a-85d4-888034134c97 data=9cd18879-1744-44fa-957c-783b1b1adf83
+2026-10-17T09:51:42.882Z INFO  [main] nihongo.kafka - event=test eventId=576a94ab-48bd-4454-a227-261497c3900d data=a4b803f0-8593-422b-9791-20fada137148
+2026-10-17T09:51:42.882Z INFO  [main] nihongo.kafka - event=test eventId=25855df5-b985-45c0-8734-7de116bf270b data=703e86c8-1932-4ca2-b9be-00546af4ff78
+2026-10-17T09:51:42.882Z INFO  [main] nihongo.kafka - event=test eventId=511fb4ca-72e1-4084-a264-a700a5639037 data=2e805969-6df0-4efb-b254-639d655da5b6
+2026-10-17T09:51:42.883Z INFO  [main] nihongo.kafka - event=test eventId=09e11634-d0a7-4e9d-b065-9cc01c20283e data=c6408627-b5f1-412b-92b3-c8b82df1a693
+2026-10-17T09:51:43.020Z INFO  [main] nihongo.kafka - event=test eventId=144d10d0-ab01-4f2a-a0cb-fefa772b5def data=10a05903-1c08-4abf-915f-4c277dd33ab5
+2026-10-17T09:51:43.020Z INFO  [main] nihongo.kafka - event=test eventId=a47964ec-0810-4c0e-8918-acf1c8a896c8 data=15869c5d-2b50-4cfb-bcbe-45b3a79ed005
+2026-10-17T09:51:43.020Z INFO  [main] nihongo.kafka - event=test eventId=ee2b2dc3-cbbc-4afa-b6f6-a9a7b0fc01b9 data=3bf81dd4-2acd-484a-b080-83f10ebba2e3
+2026-10-17T09:51:43.021Z INFO  [main] nihongo.kafka - event=test eventId=170d3a60-35a4-4b24-9d84-6f29531b473e data=fcd944d2-0e17-44cb-adb2-7dae0ef642a6
+2026-10-17T09:51:43.021Z INFO  [main] nihongo.kafka - event=test eventId=f2d57fc0-b361-4e5a-9afc-6a49b616e4bf data=0442197b-8ea2-44bd-82b0-04a9f077de38
+2026-10-17T09:51:43.021Z INFO  [main] nihongo.kafka - event=test eventId=cdfb5bb2-f3bc-4167-810f-6d22fad3bc35 data=ba46ddca-cfb6-46f1-a997-c85235d98116
+2026-10-17T09:51:43.021Z INFO  [main] nihongo.kafka - event=test eventId=540b9582-45df-4172-92ce-90a3c6dfe816 data=f5593352-6aa3-4008-88cd-50313e0dfb3e
+2026-10-17T09:51:43.022Z INFO  [main] nihongo.kafka - event=test eventId=7e74f6e1-09f0-4dde-ad7a-7872ee5f4bc1 data=782f50ea-cafa-499d-878a-8bd1bfffd0fe
+2026-10-17T09:51:43.022Z INFO  [main] nihongo.kafka - event=test eventId=ae9b4d81-e302-403a-bb55-7bd5ed83848a data=84848670-3962-42b1-ad64-23010f1485b0
+2026-10-17T09:51:43.022Z INFO  [main] nihongo.kafka - event=test eventId=ce46ab3d-9ea0-49d6-8646-7ee1301cbdef data=32a26e1b-988a-409b-b9a5-df4de0f7dfbd
+2026-10-17T09:51:43.023Z INFO  [main] nihongo.kafka - event=test eventId=e405bc41-f929-42f0-bcd9-98f0f647dd5d data=89e35d7a-70de-4837-81f5-060af5adb93b
+2026-10-17T09:51:43.023Z INFO  [main] nihongo.kafka - event=test eventId=4e03c77e-301d-4c81-a990-1282a9d5d723 data=1970627d-f58f-4e95-8915-ae67948a22f7
+2026-10-17T09:51:43.161Z INFO  [main] nihongo.kafka - event=test eventId=6d3c93c3-899a-47bf-8722-e82e67090ef1 data=01eb82bb-af20-47b4-800d-f1fd3c2a6983
+2026-10-17T09:51:43.162Z INFO  [main] nihongo.kafka - event=test eventId=e912ee65-ce2a-4762-b20e-aa7c4be24c2e data=0c00a743-b318-4649-8ba6-02472a810510
+2026-10-17T09:51:43.162Z INFO  [main] nihongo.kafka - event=test eventId=c173a001-7662-4888-b705-9b64efc20933 data=149f2df4-0620-4dab-b5bd-935baf9884b3
+2026-10-17T09:51:43.164Z INFO  [main] nihongo.kafka - event=test eventId=a2e308ad-96f4-420e-8a41-82e36935b59d data=e1fb272b-1851-4585-b147-d36c485fe328
+2026-10-17T09:51:43.164Z INFO  [main] nihongo.kafka - event=test eventId=192f9a32-2bb8-4716-8501-9a1dd553deea data=6315c6f2-e1c7-4b30-887a-00845a0e619b
+2026-10-17T09:51:43.164Z INFO  [main] nihongo.kafka - event=test eventId=70369e48-063a-4846-a68b-bc1a3affde42 data=81512981-79e0-46a8-8afb-13a0e4de7c2e
+2026-10-17T09:51:43.165Z INFO  [main] nihongo.kafka - event=test eventId=c06f64de-22a6-4f89-8b5d-c61435858ffc data=49a00a9b-84c3-417e-9d1d-1fed566e36be
+2026-10-17T09:51:43.165Z INFO  [main] nihongo.kafka - event=test eventId=a0c91f03-ed83-48fd-ae0f-7c108d942e30 data=32cc603e-9bf8-49b7-b8c4-88e9248172e9
+2026-10-17T09:51:43.165Z INFO  [main] nihongo.kafka - event=test eventId=d9ba7d71-678d-44e2-be94-4dee86cf1a45 data=5ed31434-874e-43cd-9ee5-b83a5c74a05d
+2026-10-17T09:51:43.166Z INFO  [main] nihongo.kafka - event=test eventId=bd7b6bf9-06f7-4a78-82e6-6754d3292fc1 data=4aeab002-e677-4a61-82a6-ff12b0dcf5d0
+2026-10-17T09:51:43.166Z INFO  [main] nihongo.kafka - event=test eventId=f4546b21-a0c1-4ed3-9496-561776343665 data=272c3f93-482e-4ade-9300-99f31e37205b
+2026-10-17T09:51:43.168Z INFO  [main] nihongo.kafka - event=test eventId=da3c153c-0440-4b49-95f8-4e1e73e191d5 data=6dea408c-f6ce-41e6-82a5-21a30f6e90ab
+2026-10-17T09:51:43.303Z INFO  [main] nihongo.kafka - event=test eventId=2efaf71e-183d-4859-8349-edaf02fb3e38 data=ea099bc0-6035-498c-b11f-db706b846575
+2026-10-17T09:51:43.303Z INFO  [main] nihongo.kafka - event=test eventId=2613f438-a2cb-4c16-a261-2ed342cc1c19 data=dc431614-683f-4f97-a3ae-6ad5b135431a
+2026-10-17T09:51:43.303Z INFO  [main] nihongo.kafka - event=test eventId=cee6828a-a3d6-4e90-8a3b-172b79778042 data=310f88a5-f029-4b67-bb86-ebfcbbd2b974
+2026-10-17T09:51:43.304Z INFO  [main] nihongo.kafka - event=test eventId=0781b1fe-76bb-4250-b310-6ae15eee9a2e data=2ba25ceb-593a-4131-ac73-22d2114a1de6
+2026-10-17T09:51:43.304Z INFO  [main] nihongo.kafka - event=test eventId=9236806a-e849-4a71-a805-3348f3df820e data=6829777b-624e-4828-95b5-a1a93cb216af
+2026-10-17T09:51:43.304Z INFO  [main] nihongo.kafka - event=test eventId=3d17c581-4dcb-4368-906d-334c5836fef2 data=dce6f662-ed9f-4a20-8cd7-c8d1ac2fedef
+2026-10-17T09:51:43.304Z INFO  [main] nihongo.kafka - event=test eventId=05b81d7e-fe05-44d4-915b-af9ee9a8e8ba data=9df28858-8ce1-4a97-8b51-868e489f075c
+2026-10-17T09:51:43.305Z INFO  [main] nihongo.kafka - event=test eventId=4ec8faeb-1ff1-42fb-b19c-ee8b2925b42f data=bf4bb54a-2472-46a1-ad7c-219f1ebeb145
+2026-10-17T09:51:43.305Z INFO  [main] nihongo.kafka - event=test eventId=8de058fc-359f-4a2c-b173-458740eec9a8 data=f27d77d7-7d31-41fe-b319-14a711ba5626
+2026-10-17T09:51:43.305Z INFO  [main] nihongo.kafka - event=test eventId=59f867e3-3fa5-45f2-b2c7-7b35f72f287e data=17220385-defb-4f91-aeae-c3ae7fb482cb
+2026-10-17T09:51:43.305Z INFO  [main] nihongo.kafka - event=test eventId=52e36c92-ce68-4aec-9dd5-ec45d5f97e53 data=f44e2b40-3a08-4ce3-8b7b-89565a4c4122
+2026-10-17T09:51:43.305Z INFO  [main] nihongo.kafka - event=test eventId=a6fa0018-8205-45cf-81f4-323762c8a93d data=21155fd7-b34d-4b03-8c5b-95778e553e2f
+2026-10-17T09:51:43.441Z INFO  [main] nihongo.kafka - event=test eventId=a549bbae-07a8-4a2a-8732-d432c8c595a9 data=5a7bb0d7-714b-4860-bb1b-9508bec7f8c5
+2026-10-17T09:51:43.441Z INFO  [main] nihongo.kafka - event=test eventId=0a08d14d-a6bc-4364-9fd9-d466f25bdf5f data=0e04f3e9-bae0-42c0-8f65-472f6f889487
+2026-10-17T09:51:43.441Z INFO  [main] nihongo.kafka - event=test eventId=df3d823c-cae2-4698-be1c-e670d928941c data=602cf00f-4587-48a3-b37b-a8d0be244df2
+2026-10-17T09:51:43.441Z INFO  [main] nihongo.kafka - event=test eventId=c80587f1-23cf-4115-b287-de96e2f213e9 data=b0ce3bad-8c76-41ee-9d85-41dd8e06f290
+2026-10-17T09:51:43.442Z INFO  [main] nihongo.kafka - event=test eventId=40a6c065-b747-47ba-880b-e0bf0c7b551e data=13402142-bc99-4828-a645-09f1575fe469
+2026-10-17T09:51:43.442Z INFO  [main] nihongo.kafka - event=test eventId=798e6589-563c-49f5-ad23-f8e54ecb0365 data=32eb330c-affa-46a4-831b-3d60cfa4fb48
+2026-10-17T09:51:43.442Z INFO  [main] nihongo.kafka - event=test eventId=df212718-3393-428a-b9ea-37bf3cb5e359 data=8eeae078-b94c-4e4d-85aa-45bfd4c51433
+2026-10-17T09:51:43.442Z INFO  [main] nihongo.kafka - event=test eventId=20506346-272f-4e7c-834b-3b1060da607d data=4732bf77-5f6f-48d7-9b2c-5bf7776f242b
+2026-10-17T09:51:43.442Z INFO  [main] nihongo.kafka - event=test eventId=6d56f5fd-53d0-42c5-b2c3-eb5a5ff345e7 data=19720628-4bb1-44cf-a684-12de061857db
+2026-10-17T09:51:43.442Z INFO  [main] nihongo.kafka - event=test eventId=74ba86f0-500a-449d-b503-2ab17e640985 data=ebb80a78-ecd3-4ad8-b140-b39ee11958bf
+2026-10-17T09:51:43.444Z INFO  [main] nihongo.kafka - event=test eventId=2a2ab921-f1fb-4603-8b5a-2ebd7d2d5a3a data=fd516d8c-2bec-4c28-963f-1073ca2ac297
+2026-10-17T09:51:43.444Z INFO  [main] nihongo.kafka - event=test eventId=64b9d3de-055b-4634-be4a-d4178b0dc37f data=0cb8061e-65d8-415c-b7ef-bf95a0589b83
+2026-10-17T09:51:43.579Z INFO  [main] nihongo.kafka - event=test eventId=8af257ed-7af1-45ec-ba4f-339bf139ba05 data=76e64dd5-b2f5-4eba-b10d-84583fe8ce56
+2026-10-17T09:51:43.579Z INFO  [main] nihongo.kafka - event=test eventId=a822256e-ba78-4386-aca6-567dd08a8f46 data=d262dd02-9447-4d8d-a532-e1d003ba536a
+2026-10-17T09:51:43.579Z INFO  [main] nihongo.kafka - event=test eventId=e0b881f8-81c2-455e-9155-b4b7794adb73 data=0fc0087f-9128-4bd3-9b8d-13cec3ca6fbd
+2026-10-17T09:51:43.579Z INFO  [main] nihongo.kafka - event=test eventId=723fb44e-ff88-481a-9993-f25df79bae91 data=3e6f0755-0ca2-4ecb-9b8e-d6f4e1a1063f
+2026-10-17T09:51:43.580Z INFO  [main] nihongo.kafka - event=test eventId=38b223b5-eb16-4297-a1f0-fb880228084b data=589ce17c-3dd2-4d21-bfae-b00719d4170d
+2026-10-17T09:51:43.580Z INFO  [main] nihongo.kafka - event=test eventId=237b8e63-ca7c-4057-8978-17f197730608 data=118cf42d-a49d-4765-8e7f-0f288c9b7a20
+2026-10-17T09:51:43.580Z INFO  [main] nihongo.kafka - event=test eventId=a73abec4-0b34-4e84-b686-1e67d35ab313 data=7a653d4c-d79c-4911-97e8-a096be06db0d
+2026-10-17T09:51:43.580Z INFO  [main] nihongo.kafka - event=test eventId=1b00ebef-1e97-4526-8026-0f0857c748d6 data=7b31198f-2207-4d0a-9125-57d03625ef2f
+2026-10-17T09:51:43.581Z INFO  [main] nihongo.kafka - event=test eventId=ab995266-e607-4b2b-8006-cb244a39aa64 data=14ef4f19-7fa6-4821-99cf-76b903ee4e7a
+2026-10-17T09:51:43.581Z INFO  [main] nihongo.kafka - event=test eventId=388cf841-c9d1-4669-bc19-f35ba12cd243 data=9f8bc0f1-43c2-4ead-91e5-5b7634b157df
+2026-10-17T09:51:43.581Z INFO  [main] nihongo.kafka - event=test eventId=a85ed7de-3824-4b5a-9080-7b0f6b362aa4 data=cfd12ff8-73df-4f16-b669-351c2e693857
+2026-10-17T09:51:43.581Z INFO  [main] nihongo.kafka - event=test eventId=5aff1c11-822b-4f68-9d2d-47df08e6c0e1 data=bf01ea19-b3ac-4285-a69e-14fa66029378
+2026-10-17T09:51:43.721Z INFO  [main] nihongo.kafka - event=test eventId=55e5b4ce-6771-405a-8937-a1fc98c89185 data=f17f7828-8399-4837-832c-b23e300c593b
+2026-10-17T09:51:43.721Z INFO  [main] nihongo.kafka - event=test eventId=2d2f2d74-92a5-4510-a132-84368105a683 data=3c14d968-323d-478c-92ec-0dbc10bcf602
+2026-10-17T09:51:43.721Z INFO  [main] nihongo.kafka - event=test eventId=c2d8f32e-24ba-4da9-b087-487791fd59fd data=3215d7f6-c832-4de3-8666-cbd5b6b0ef52
+2026-10-17T09:51:43.721Z INFO  [main] nihongo.kafka - event=test eventId=b9fc9f7f-3786-47b5-bb75-d0d27198a367 data=9fb2bbd8-0c89-4d97-b0a5-c400cd9a61cc
+2026-10-17T09:51:43.722Z INFO  [main] nihongo.kafka - event=test eventId=df0c75c5-39f7-4f8e-a216-f69d91ddf2bb data=7a93a06f-9a05-49aa-9ff9-55fcede08280
+2026-10-17T09:51:43.722Z INFO  [main] nihongo.kafka - event=test eventId=fa22195d-4f57-45c2-93bc-d7af7a2c6c0e data=df912cc7-446b-4322-ba6e-d95428cb53f0
+2026-10-17T09:51:43.722Z INFO  [main] nihongo.kafka - event=test eventId=ecbdc46b-41c6-4c8c-8385-4310fd0c2733 data=fba1d5ef-30ac-4280-bb37-c63708b7f72d
+2026-10-17T09:51:43.722Z INFO  [main] nihongo.kafka - event=test eventId=465b3f6b-6b05-4f81-a59e-c280b2511d69 data=128e5f74-2fa3-4c5e-bd63-8d54fcfe2068
+2026-10-17T09:51:43.722Z INFO  [main] nihongo.kafka - event=test eventId=302a3fbf-f6eb-4172-81b0-367eb7535934 data=3dd85352-0931-4eba-9881-ef6beb5381cf
+2026-10-17T09:51:43.722Z INFO  [main] nihongo.kafka - event=test eventId=00787591-ab57-4ffa-aa9d-d1a9d8966c2b data=22a813d9-169b-4084-bd66-6fbeea723db5
+2026-10-17T09:51:43.723Z INFO  [main] nihongo.kafka - event=test eventId=de11ab83-c2fb-4608-afaa-7bdf9a937a0c data=23abeb3d-6a63-454a-b5d3-a9eef1cd6d8a
+2026-10-17T09:51:43.723Z INFO  [main] nihongo.kafka - event=test eventId=26821065-584e-4775-ae90-06db166b43ff data=1ac70fb5-57ea-4359-8f62-3a2033817095
+2026-10-17T09:51:43.862Z INFO  [main] nihongo.kafka - event=test eventId=de3360c0-08ab-493c-963c-8e62147ce64a data=ef6c2ab3-ae68-4023-a189-9d1b5e605796
+2026-10-17T09:51:43.863Z INFO  [main] nihongo.kafka - event=test eventId=ada5da92-600f-4577-aa2c-19bc6b676428 data=a435b9a6-c4df-4cbe-a283-4ddfaa4804a7
+2026-10-17T09:51:43.864Z INFO  [main] nihongo.kafka - event=test eventId=81108ed3-13dd-474c-a3f7-d3a9bf2f0181 data=5ac47af4-b220-47fb-b705-5e4b05230b45
+2026-10-17T09:51:43.864Z INFO  [main] nihongo.kafka - event=test eventId=389255be-e760-4919-8eb1-0a8880239fba data=9fa7e24b-2187-4235-804a-7b409be660a7
+2026-10-17T09:51:43.864Z INFO  [main] nihongo.kafka - event=test eventId=5e1bf0a6-7aef-413f-b7a4-14ef0e9e2f92 data=19f07e58-c9da-4724-b427-7c33326e5e0e
+2026-10-17T09:51:43.864Z INFO  [main] nihongo.kafka - event=test eventId=7587041e-a4e1-4970-83cc-f90aeeb68d54 data=090c7b52-929d-4554-80ea-4ea47db06b49
+2026-10-17T09:51:43.865Z INFO  [main] nihongo.kafka - event=test eventId=ad0a0c06-a5af-4949-b27b-7ee969c53784 data=6fc1e885-589f-4a30-8aa6-14dfa45f4404
+2026-10-17T09:51:43.865Z INFO  [main] nihongo.kafka - event=test eventId=7e852b6e-fc6e-46d8-b68b-d3f31c307771 data=68572818-0ab8-4772-a5b7-93d34836ed97
+2026-10-17T09:51:43.870Z INFO  [main] nihongo.kafka - event=test eventId=2292721d-7abc-486c-afdb-2456eddc2392 data=d4fe495d-18c8-4344-b2a1-ae1d11cdff86
+2026-10-17T09:51:43.870Z INFO  [main] nihongo.kafka - event=test eventId=0af51140-63d3-4660-a660-1a3a817c5731 data=de4fdfd9-682c-41f4-9673-03fa4d64ccd6
+2026-10-17T09:51:43.870Z INFO  [main] nihongo.kafka - event=test eventId=37a4f3f2-fbea-477d-9062-f36c70534cd2 data=05906884-01e7-49b7-b2e3-fc2e6890859f
+2026-10-17T09:51:43.870Z INFO  [main] nihongo.kafka - event=test eventId=464abb84-f5e9-4886-ac05-8f07ff0e15b2 data=468a04a5-4f4f-4920-81ab-bb448930c8f2
+2026-10-17T09:51:44.005Z INFO  [main] nihongo.kafka - event=test eventId=fab062b3-19e5-4feb-8689-9ef67d86ed02 data=49f389b8-bc55-4cd4-8570-1d74d46c1579
+2026-10-17T09:51:44.005Z INFO  [main] nihongo.kafka - event=test eventId=35a65d5b-f59d-49e3-bbd5-89bbf1b09ab5 data=849595fd-2c01-4bcf-b279-b823cf6cff3d
+2026-10-17T09:51:44.005Z INFO  [main] nihongo.kafka - event=test eventId=48a8249f-29f0-44b0-88c2-30b5aae95538 data=27d4120b-8f52-4ede-817f-2220d67a1076
+2026-10-17T09:51:44.005Z INFO  [main] nihongo.kafka - event=test eventId=7591c49a-864e-47b3-babf-61fa7381f2dd data=8f250a56-f861-4c80-8bfd-232af249e44c
+2026-10-17T09:51:44.006Z INFO  [main] nihongo.kafka - event=test eventId=9be811a0-d8b6-4214-93b5-4a10f4423183 data=b5003c0e-cee3-496f-a052-ee0d17b026b0
+2026-10-17T09:51:44.006Z INFO  [main] nihongo.kafka - event=test eventId=b8e725fe-2f45-46c0-8728-af08757cdc7e data=8684b5fa-a629-41e7-b85c-b13dff7205db
+2026-10-17T09:51:44.006Z INFO  [main] nihongo.kafka - event=test eventId=b1223279-0cc1-4f1d-b497-07e43da1520d data=b1368ccf-9f07-4d81-93ce-abdee4f3bc1a
+2026-10-17T09:51:44.006Z INFO  [main] nihongo.kafka - event=test eventId=b8a6b05f-26c6-4aec-a172-da95299489b6 data=57cd7f63-4634-414e-941b-997e75889aa2
+2026-10-17T09:51:44.006Z INFO  [main] nihongo.kafka - event=test eventId=f79b27d6-c76e-4790-ac4d-33ec7665d9d4 data=81ac1131-d42a-4d9d-b5b6-73dbee78e57e
+2026-10-17T09:51:44.006Z INFO  [main] nihongo.kafka - event=test eventId=2310eb71-0b94-4da4-913e-c4066f95b604 data=1940548d-e174-437d-afdb-4bfd1e2e2298
+2026-10-17T09:51:44.006Z INFO  [main] nihongo.kafka - event=test eventId=85d8d408-556d-4dfb-b567-3085c9710982 data=c7f95395-ff6c-46e3-8732-39a99b2aa9de
+2026-10-17T09:51:44.007Z INFO  [main] nihongo.kafka - event=test eventId=7a695477-3d69-4a1e-9b1c-936dd8595b4e data=770d4bc4-c1b4-41b0-a0d1-8f377fbac3a5
+2026-10-17T09:51:44.146Z INFO  [main] nihongo.kafka - event=test eventId=a5ebffea-7a69-46ea-8af1-79d1ad028d31 data=a399c3fe-7ed4-4cdd-9bfa-1d3183bb910c
+2026-10-17T09:51:44.146Z INFO  [main] nihongo.kafka - event=test eventId=06d8cb9c-db60-4ab3-96be-a08d5fc4db89 data=25686315-d03e-4c09-8aa8-d3245fe709c1
+2026-10-17T09:51:44.146Z INFO  [main] nihongo.kafka - event=test eventId=4c19c0e9-ca9d-4f9e-95a1-3dc3c1b2a850 data=157a4395-bf16-4ea7-86dd-0b61243df855
+2026-10-17T09:51:44.146Z INFO  [main] nihongo.kafka - event=test eventId=c1919231-d3eb-4bcb-a0d4-f71a8a450bed data=b593ed70-edc6-4377-9536-57f315fb70ee
+2026-10-17T09:51:44.146Z INFO  [main] nihongo.kafka - event=test eventId=d13bfee9-00c8-4e90-93a2-05cdb623b073 data=25788bfb-459d-4d82-9c63-0ee474ec68bd
+2026-10-17T09:51:44.147Z INFO  [main] nihongo.kafka - event=test eventId=ed62c739-4b75-4669-8953-4372cbe8222a data=fd0b7288-4117-42b6-b4bf-1d934aefe41a
+2026-10-17T09:51:44.147Z INFO  [main] nihongo.kafka - event=test eventId=eccbe835-e7a3-43b2-b02d-12326bfe13fe data=4252db55-fe5c-4303-859b-b607eb3ed7c7
+2026-10-17T09:51:44.147Z INFO  [main] nihongo.kafka - event=test eventId=1d1e12d8-a8c4-4207-9796-4b300606e6c3 data=952d1026-796e-4fdf-b332-3ff518ad5963
+2026-10-17T09:51:44.147Z INFO  [main] nihongo.kafka - event=test eventId=7095106d-d98b-42ec-b582-f7928c12b201 data=58f17fc8-6a4b-45e6-ab85-82465c6abec4
+2026-10-17T09:51:44.147Z INFO  [main] nihongo.kafka - event=test eventId=7a1ee73c-641c-4095-b590-78a4b535f9cb data=46211533-b14d-4c0b-a34a-aa73b2301db9
+2026-10-17T09:51:44.147Z INFO  [main] nihongo.kafka - event=test eventId=0ed8c3da-e54d-4adb-b55d-d59a42ea469f data=b6c87ff8-c683-401a-be33-b8b95ec2b7a9
+2026-10-17T09:51:44.147Z INFO  [main] nihongo.kafka - event=test eventId=afc354e3-985a-4237-91ac-4e229bfa09a8 data=a8dbc732-8e21-420f-abc3-d817f57afb5f
+2026-10-17T09:51:44.285Z INFO  [main] nihongo.kafka - event=test eventId=f5daefba-3ff4-4d62-b9ae-f20dd5742b38 data=fa2d3d66-0ad6-4309-960d-a489a49d0343
+2026-10-17T09:51:44.285Z INFO  [main] nihongo.kafka - event=test eventId=0eaa9649-a7c3-4872-b3a5-adcbb69bfa7f data=c13bc628-8cd1-4254-96f6-99cb6efdb1d2
+2026-10-17T09:51:44.285Z INFO  [main] nihongo.kafka - event=test eventId=2857c78b-7099-4a44-b094-476a10d13419 data=2bf2d749-7c30-4767-ad7c-efe26c73b6c5
+2026-10-17T09:51:44.285Z INFO  [main] nihongo.kafka - event=test eventId=530f32a5-4ede-4eba-b640-59798927baa8 data=eb83f6ac-8df4-4dc1-83b8-e5e42a3d983f
+2026-10-17T09:51:44.285Z INFO  [main] nihongo.kafka - event=test eventId=636cbb72-5691-4894-96ca-057b8a363604 data=c6a3abad-347c-42df-9a36-7b306dc554f7
+2026-10-17T09:51:44.286Z INFO  [main] nihongo.kafka - event=test eventId=9a72ed72-5aa6-44d2-a213-022ddf74e18a data=76f59748-25ed-4317-a0da-a0ec8ea0aa06
+2026-10-17T09:51:44.286Z INFO  [main] nihongo.kafka - event=test eventId=6bd9cb12-7c38-4002-a8f0-18064a2a2974 data=66160492-a653-4735-85cc-55c72e6d6c62
+2026-10-17T09:51:44.286Z INFO  [main] nihongo.kafka - event=test eventId=7643d940-1f0a-42e1-ae19-189f75e79687 data=4e3cdade-4acc-44d1-acf1-5bf7401bbe1d
+2026-10-17T09:51:44.286Z INFO  [main] nihongo.kafka - event=test eventId=7e3cd21f-5554-4d23-b4e8-b1827df481ab data=c7af2dc7-a918-4ab6-aee2-8c4c16bb10a0
+2026-10-17T09:51:44.286Z INFO  [main] nihongo.kafka - event=test eventId=48606313-90ec-4e42-8dc0-906911f9f893 data=ca45d6c5-1aad-4685-a3e9-15953eecf680
+2026-10-17T09:51:44.286Z INFO  [main] nihongo.kafka - event=test eventId=01ea6806-e882-4873-9532-a468548dc0d3 data=951173c1-c7a8-41a6-8d96-87c1e1083cc2
+2026-10-17T09:51:44.286Z INFO  [main] nihongo.kafka - event=test eventId=72efec70-4d27-4a1d-8118-f520b70b34ab data=91225983-fb84-4d9d-a522-2479f95a7338
+2026-10-17T09:51:44.428Z INFO  [main] nihongo.kafka - event=test eventId=2fe212d1-435b-42bf-8a30-b94c2360b7be data=e97bad16-b7f9-4a8c-aef7-b269b8914352
+2026-10-17T09:51:44.428Z INFO  [main] nihongo.kafka - event=test eventId=3d669e4b-bc9b-4789-a45b-85a5e005ee96 data=0011c78e-30ae-47f3-b479-708b563b6afe
+2026-10-17T09:51:44.428Z INFO  [main] nihongo.kafka - event=test eventId=7397609b-08fb-42ef-af1d-dda71a752cf8 data=1558a5f0-a15d-488f-aaa1-23b8753384b0
+2026-10-17T09:51:44.428Z INFO  [main] nihongo.kafka - event=test eventId=91c2bad4-8c2b-4427-8435-969affb791df data=442933bd-267f-4e8a-b93f-aaa32707968e
+2026-10-17T09:51:44.428Z INFO  [main] nihongo.kafka - event=test eventId=e20e9212-6999-4b40-b48d-027a44248b27 data=de7eec02-24f2-4c4a-8d0c-346c4f743f60
+2026-10-17T09:51:44.428Z INFO  [main] nihongo.kafka - event=test eventId=0b4a7628-3d7c-4f8f-8135-e42b24dfd125 data=c6f0cdb4-ee2d-44f5-822f-b572c0b9a558
+2026-10-17T09:51:44.428Z INFO  [main] nihongo.kafka - event=test eventId=f299b84f-4e77-4635-88c9-85e92ad4f67c data=65e9fa53-bfcf-424c-af97-94f40dc8b467
+2026-10-17T09:51:44.429Z INFO  [main] nihongo.kafka - event=test eventId=9a66e08e-c532-4e2b-b245-ed9c82916ebb data=6b7c1eb1-c39f-444a-ac78-7602b4d82d7c
+2026-10-17T09:51:44.429Z INFO  [main] nihongo.kafka - event=test eventId=03ff890a-0d31-4c6e-8462-969d9886cb74 data=b531a8a9-46cd-4741-9cb9-58bc513e6a72
+2026-10-17T09:51:44.429Z INFO  [main] nihongo.kafka - event=test eventId=07dc027e-4ff4-4407-8dc6-e660e3ff049d data=6dddf45c-6f3d-45e3-a145-b485e20b4248
+2026-10-17T09:51:44.429Z INFO  [main] nihongo.kafka - event=test eventId=c64404b3-09cc-4ed0-be9c-b60d63bd9a21 data=c0277955-b37e-4533-85e8-7f88491711d2
+2026-10-17T09:51:44.429Z INFO  [main] nihongo.kafka - event=test eventId=8c997f4e-17ac-4b31-ab22-8eb0e06a3e6b data=24ff0e1a-4ec7-42c0-b061-a2e1151dd543
 ]]></system-out>
   </testcase>
-  <testcase name="sqlTraceRecordsQueriesWithPlaceholdersWithoutBindValues" classname="com.nihongo.logging.FileLoggingTest" time="0.031"/>
-  <testcase name="redactsTokensCookiesSecretsAndPreventsForgedLogLines" classname="com.nihongo.logging.FileLoggingTest" time="0.007"/>
-  <testcase name="routesFilesAndDisablesSqlAndParameterLoggingByDefault" classname="com.nihongo.logging.FileLoggingTest" time="0.036">
-    <system-out><![CDATA[2026-10-16T12:12:30.246Z INFO  [main] nihongo.kafka - event=published eventId=event-1 password=[REDACTED] [REDACTED_EMAIL]
-2026-10-16T12:12:30.246Z INFO  [main] nihongo.socket - event=connected socketId=connection-1
-2026-10-16T12:12:30.246Z ERROR [main] app - failure
+  <testcase name="sqlTraceRecordsQueriesWithPlaceholdersWithoutBindValues" classname="com.nihongo.logging.FileLoggingTest" time="0.05"/>
+  <testcase name="redactsTokensCookiesSecretsAndPreventsForgedLogLines" classname="com.nihongo.logging.FileLoggingTest" time="0.009"/>
+  <testcase name="routesFilesAndDisablesSqlAndParameterLoggingByDefault" classname="com.nihongo.logging.FileLoggingTest" time="0.069">
+    <system-out><![CDATA[2026-10-17T09:51:44.713Z INFO  [main] nihongo.kafka - event=published eventId=event-1 password=[REDACTED] [REDACTED_EMAIL]
+2026-10-17T09:51:44.714Z INFO  [main] nihongo.socket - event=connected socketId=connection-1
+2026-10-17T09:51:44.714Z ERROR [main] app - failure
 java.lang.IllegalStateException: refreshToken=[REDACTED]
 	at com.nihongo.logging.FileLoggingTest.routesFilesAndDisablesSqlAndParameterLoggingByDefault(FileLoggingTest.java:46)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -291,5 +291,5 @@ java.lang.IllegalStateException: refreshToken=[REDACTED]
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></system-out>
   </testcase>
-  <testcase name="cleansArchivesPeriodicallyEvenWithoutNewLogEvents" classname="com.nihongo.logging.FileLoggingTest" time="1.055"/>
+  <testcase name="cleansArchivesPeriodicallyEvenWithoutNewLogEvents" classname="com.nihongo.logging.FileLoggingTest" time="1.058"/>
 </testsuite>
